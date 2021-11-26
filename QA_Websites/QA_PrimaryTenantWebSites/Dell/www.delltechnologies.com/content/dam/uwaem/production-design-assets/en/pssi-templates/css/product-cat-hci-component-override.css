@@ -1,0 +1,21 @@
+#hci-override{background:#1a1a1a !important}
+.category-nav-large-menu .category-nav-menu .list-item{border-right:1px solid #000}
+.category-nav-large-menu .category-nav-menu.col.xl-5>li:nth-child(5n+1){padding-right:0}
+.category-nav-large-menu .category-nav-menu.col.xl-5>li:nth-child(5n){padding-left:0}
+.category-nav-large-menu .category-nav-menu.col.xl-5>li:nth-child(5n+2),.category-nav-large-menu .category-nav-menu.col.xl-5>li:nth-child(5n-2),.category-nav-large-menu .category-nav-menu.col.xl-5>li:nth-child(5n-1){padding-right:0;padding-left:0}
+.category-nav-large-menu .category-nav-menu .list-item:last-child{border-right:0}
+.category-nav-large-menu .category-nav-menu .heading{font-size:16px !important;text-align:center;color:#fff !important}
+.category-nav-view .category-nav-menu.fixed-nav .list-item .category-nav-back.text-image .wrap-text .heading,.category-nav-view .category-nav-menu.fixed-nav .list-item .category-nav-back .wrap-text .heading{font-size:14px !important;padding:5px}
+.category-nav-view .category-nav-menu.fixed-nav .list-item .category-nav-back .wrap-text .heading{display:block}
+.category-nav-view .category-nav-menu .category-nav-back,.category-nav-view .category-nav-menu .category-nav-dropdown-arrow{background:#1a1a1a}
+.category-nav-view .category-nav-menu.fixed-nav .list-item:not(:first-of-type) .category-nav-back{border-left:0 !important}
+.category-nav-menu .category-nav-back{background:0}
+.category-nav-menu.fixed-nav .category-nav-back{background:#1a1a1a}
+.category-nav-link{position:relative}
+.category-nav-view a{vertical-align:middle;display:table-cell}
+.category-nav-view .category-nav-menu.fixed-nav .list-item .category-nav-back a,.category-nav-view .category-nav-menu.fixed-nav .list-item .category-nav-back .wrap-text{padding:0}
+.category-nav-view .category-nav-menu.fixed-nav .list-item{width:100%}
+@media screen and (max-width:979.9px){.category-nav-separator{height:0 !important}
+}
+.feature-component .rendition.pagebed{overflow:hidden}
+.feature-component .wrap-content{overflow:hidden}

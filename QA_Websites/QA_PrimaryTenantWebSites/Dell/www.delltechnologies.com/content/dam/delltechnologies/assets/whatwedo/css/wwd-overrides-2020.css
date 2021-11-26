@@ -1,0 +1,38 @@
+.mix-promos .promo03-view .content .btn .cta-body {
+    border-color: #fff;
+    background-color: #fff;
+    color: #0076ce;
+}
+.mix-promos .promo03-view .content .btn:hover .cta-body {
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+	body:not(.use-compatibility-header-fill) .hero-short.hero01-view .content {
+		min-height: 464px;
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 979.9px) {
+	.mix-promos .promo03-view .content .wrapper-text {
+		width: 65%;
+	}
+}
+@media screen and (min-width: 980px) {
+	.mix-promos .promo03-view .content {
+		height: 100%;
+		min-height: 450px;
+		background-position: center;
+	}
+	.img-behind-promo-halves.promo03-view ul {
+		display: flex;
+	}
+	.img-behind-promo-halves.promo03-view .content .wrapper-text {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 1280px) {
+	.img-behind-promo-halves.promo03-view .content .wrapper-text {
+		width: 75%;
+	}
+}

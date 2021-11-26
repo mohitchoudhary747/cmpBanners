@@ -1,0 +1,416 @@
+.home-bg {
+  background-image: url("https://www.delltechnologies.com/content/dam/uwaem/production-design-assets/en/microsites/dellemcworld/2020/images/home/dtw-home-hero.jpg") !important; }
+
+/* DURING OVERRIDES */
+.home-bg-during {
+  background-image: url("https://www.delltechnologies.com/content/dam/uwaem/production-design-assets/en/microsites/dellemcworld/2020/images/home/dtw-home-during-hero.jpg") !important; }
+
+#dve > section {
+  max-width: none !important; }
+
+/* END DURING OVERRIDES */
+/* Commeneted by Steve
+.cta-layout {
+  margin-top: 10px !important;
+  .partial-cta-list {
+    margin-bottom: 0px !important;
+  }
+}
+*/
+/* Hide video overlay share button */
+.uw-overlay .share {
+  display: none; }
+
+.footnote p {
+  color: #444444 !important;
+  margin-right: 1px; }
+
+.sponsor-text {
+  margin-top: 24px; }
+
+.profile-list01-view .col.xxl-4 .wrapper-text {
+  padding-right: 0px !important; }
+  .profile-list01-view .col.xxl-4 .wrapper-text .heading {
+    padding-right: 30px !important; }
+    .profile-list01-view .col.xxl-4 .wrapper-text .heading:after {
+      margin-right: -30px !important; }
+  .profile-list01-view .col.xxl-4 .wrapper-text .rte {
+    padding-right: 30px !important; }
+
+@media screen and (max-width: 39.99em) {
+  .image-caption {
+    margin-bottom: 48px !important; } }
+@media screen and (max-width: 39.99em) {
+  .image-caption .wrapper-image:after {
+    content: 'Photo from Dell Technologies World 2019';
+    display: block;
+    color: #444444;
+    bottom: 5px;
+    right: 10px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 5px; } }
+
+.caption-only-desktop {
+  display: none; }
+  @media screen and (min-width: 40em) {
+    .caption-only-desktop {
+      display: block; } }
+
+.promo-component .wrapper-icon-custom img {
+  height: 64% !important; }
+
+.sponsor-detail-hero-list {
+  padding-top: 36px;
+  /*
+  &.list02-view .list-item {
+    margin-bottom: 0;
+    @include mq ($from: small) {
+      margin-bottom: 60px;
+    }
+    @include mq ($from: xlarge) {
+      margin-bottom: 60px;
+    }
+  }
+  */ }
+  @media screen and (min-width: 48em) {
+    .sponsor-detail-hero-list {
+      padding-top: 0; } }
+  .sponsor-detail-hero-list.list02-view .has-image .wrap-claim img {
+    max-width: 280px;
+    max-height: 60px;
+    margin-bottom: 30px; }
+    @media screen and (min-width: 48em) {
+      .sponsor-detail-hero-list.list02-view .has-image .wrap-claim img {
+        max-height: 150px; } }
+  @media screen and (min-width: 61.25em) {
+    .sponsor-detail-hero-list .wrap-text {
+      max-width: 66%;
+      margin: 0 auto;
+      margin-bottom: 24px; } }
+  .sponsor-detail-hero-list .carousel-container .control {
+    padding-top: 0; }
+  @media screen and (min-width: 80em) {
+    .sponsor-detail-hero-list.promo01-view .wrapper-text-description {
+      width: 66%;
+      margin: auto; } }
+  .sponsor-detail-hero-list.promo01-view .wrapper .wrap-image img {
+    max-width: 280px;
+    max-height: 60px;
+    margin-bottom: 30px;
+    margin: auto; }
+    @media screen and (min-width: 48em) {
+      .sponsor-detail-hero-list.promo01-view .wrapper .wrap-image img {
+        max-height: 150px; } }
+
+.btn.play.btn.round .cta-play {
+  background-color: #0076CE !important;
+  border: 0; }
+  .btn.play.btn.round .cta-play:after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 55%;
+    top: 50%;
+    left: 50%;
+    background: transparent url("https://www.delltechnologies.com/content/dam/uwaem/production-design-assets/en/cloud-site/images/butn-video-arrow.svg") no-repeat 0 0;
+    background-size: 100%;
+    transform: translate(-50%, -50%); }
+
+.sponsor-subhead {
+  font-size: 24px;
+  padding-top: 10px; }
+  @media screen and (min-width: 48em) {
+    .sponsor-subhead {
+      font-size: 36px; } }
+
+.sponsors-grid {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start; }
+  .sponsors-grid .sponsors-grid-item {
+    display: flex;
+    flex: 1 0 50%;
+    max-width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer; }
+    @media screen and (max-width: 61.24em) {
+      .sponsors-grid .sponsors-grid-item {
+        flex: 1 0 50%;
+        max-width: 50%; } }
+    @media screen and (max-width: 47.99em) {
+      .sponsors-grid .sponsors-grid-item {
+        flex: 1 0 50%;
+        max-width: 50%; } }
+    @media screen and (max-width: 39.99em) {
+      .sponsors-grid .sponsors-grid-item {
+        flex: 1 0 50%;
+        max-width: 50%; }
+        .sponsors-grid .sponsors-grid-item img {
+          transform: scale(0.8);
+          max-width: 150px; } }
+    .sponsors-grid .sponsors-grid-item .sgi-card {
+      display: flex;
+      flex: auto;
+      background: #FFFFFF;
+      min-height: 200px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 100px; }
+      @media screen and (max-width: 47.99em) {
+        .sponsors-grid .sponsors-grid-item .sgi-card {
+          min-height: 150px; } }
+  .sponsors-grid.sg-secondary .sponsors-grid-item {
+    flex: 1 0 25%;
+    max-width: 25%; }
+    @media screen and (max-width: 61.24em) {
+      .sponsors-grid.sg-secondary .sponsors-grid-item {
+        flex: 1 0 25%;
+        max-width: 25%; }
+        .sponsors-grid.sg-secondary .sponsors-grid-item img {
+          max-width: 150px; } }
+    @media screen and (max-width: 47.99em) {
+      .sponsors-grid.sg-secondary .sponsors-grid-item {
+        flex: 1 0 50%;
+        max-width: 50%; } }
+    @media screen and (max-width: 39.99em) {
+      .sponsors-grid.sg-secondary .sponsors-grid-item {
+        flex: 1 0 50%;
+        max-width: 50%; }
+        .sponsors-grid.sg-secondary .sponsors-grid-item img {
+          transform: scale(0.8); } }
+  .sponsors-grid.sg-single .sponsors-grid-item {
+    display: block;
+    width: 100%;
+    flex: 1 0 100%;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px; }
+
+.list-intel-header .list-item {
+  width: 100% !important; }
+  .list-intel-header .list-item .wrapper-image {
+    margin-bottom: 0; }
+  .list-intel-header .list-item .wrapper-text {
+    padding-right: 0 !important; }
+    .list-intel-header .list-item .wrapper-text .wrap-text {
+      display: table-cell;
+      vertical-align: middle; }
+
+.intel-brought {
+  position: relative;
+  top: 3px;
+  left: 10px;
+  max-width: 50px; }
+
+#dew-newsletter.submitted #msg-subscribe {
+  display: none; }
+#dew-newsletter.submitted #msg-subscribe-thanks {
+  display: block; }
+#dew-newsletter .dtw--newsletter-msg {
+  color: #444444; }
+  #dew-newsletter .dtw--newsletter-msg p {
+    font-size: 16px;
+    line-height: 24px; }
+    @media screen and (min-width: 61.25em) {
+      #dew-newsletter .dtw--newsletter-msg p {
+        padding-right: 20%; } }
+    #dew-newsletter .dtw--newsletter-msg p span.form-heading {
+      display: block;
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 18px;
+      color: #1A1A1A; }
+#dew-newsletter .dtw--newsletter-form {
+  width: 100%; }
+  @media screen and (min-width: 61.25em) {
+    #dew-newsletter .dtw--newsletter-form {
+      width: 66%; } }
+  #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs .email-field-container {
+    display: inline-block;
+    width: 50%; }
+    #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs .email-field-container input {
+      width: 90%; }
+  #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs .country-field-container {
+    width: 50%; }
+    #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs .country-field-container select {
+      width: 48%; }
+  #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs .dtw--newsletter-privacy-policy {
+    display: inline-block;
+    width: 48%;
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #444444; }
+  #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs input, #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs select {
+    border: none;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #0076CD;
+    color: #444444;
+    padding: 0 3px;
+    height: 30px;
+    line-height: 30px;
+    -webkit-transition: 0.2s ease background-color;
+    transition: 0.2s ease background-color;
+    margin-top: 1.5em;
+    background: none !important; }
+    #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs input #placeholder, #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs select #placeholder {
+      color: #444444 !important; }
+    #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs input::-webkit-input-placeholder, #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs select::-webkit-input-placeholder {
+      color: #444444 !important; }
+    #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs input:focus, #dew-newsletter .dtw--newsletter-form .dtw--newsletter-form-inputs select:focus {
+      outline: none !important;
+      background: #FFFFFF !important;
+      border: 1px solid #0076CD; }
+  #dew-newsletter .dtw--newsletter-form .cta-button-wrapper {
+    display: inline-block;
+    width: 50%;
+    text-align: right; }
+    #dew-newsletter .dtw--newsletter-form .cta-button-wrapper button {
+      border: 2px solid #0076CE;
+      background-color: #0076CE;
+      text-transform: none;
+      color: #FFFFFF;
+      width: 100px;
+      padding: 10px 13px; }
+      #dew-newsletter .dtw--newsletter-form .cta-button-wrapper button:hover {
+        border-color: #00447C;
+        background-color: #00447C; }
+  #dew-newsletter .dtw--newsletter-form button {
+    border: 2px solid #0076CE;
+    background-color: #0076CE;
+    text-transform: none;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px 13px; }
+    #dew-newsletter .dtw--newsletter-form button:hover {
+      border-color: #00447C;
+      background-color: #00447C; }
+
+#dew-newsletter {
+  display: flex;
+  align-content: space-between;
+  flex-flow: column; }
+  @media screen and (min-width: 61.25em) {
+    #dew-newsletter {
+      flex-flow: row; } }
+
+.dtw--newsletter-msg {
+  width: 100%; }
+  @media screen and (min-width: 61.25em) {
+    .dtw--newsletter-msg {
+      width: 33%;
+      margin-right: 40px; } }
+
+#msg-subscribe-thanks {
+  display: none; }
+
+#hidden-iframe, #hidden-iframe-optin {
+  display: none !important;
+  width: 1px;
+  height: 1px;
+  border: none; }
+
+.dt-world {
+  /* index */
+  /* Agenda */ }
+  .dt-world .promo-component .promo02-view.promo-no-left-padding .wrapper-text {
+    padding-left: 0px; }
+  .dt-world .promo-component .promo04-view .list-item > div > div:before {
+    opacity: 0.25; }
+  .dt-world .promo-component .promo01-view .align-left {
+    padding-left: 0 !important; }
+  .dt-world .promo-component .promo03-view.icon-promo .promo-side .wrapper-icon {
+    display: block;
+    position: relative;
+    top: 20px; }
+    .dt-world .promo-component .promo03-view.icon-promo .promo-side .wrapper-icon .wrapper-image {
+      float: none;
+      clear: both;
+      text-align: left; }
+      .dt-world .promo-component .promo03-view.icon-promo .promo-side .wrapper-icon .wrapper-image img {
+        position: relative;
+        opacity: 1;
+        height: 30px;
+        transform: none;
+        top: 0;
+        left: 0; }
+  .dt-world .list-component .list-speaker .wrap-text .heading {
+    font-size: 18px !important;
+    line-height: 24px;
+    margin-bottom: 5px; }
+  .dt-world .list-component .list-speaker-no-icon .has-icon {
+    display: none; }
+  @media screen and (max-width: 47.99em) {
+    .dt-world .list-component .list-item {
+      width: 100%; } }
+  .dt-world .profile-list-component .profile-list01-view .wrapper > .wrapper-image {
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2); }
+  .dt-world .profile-list-component .overlay-hbs-trigger .heading::after {
+    content: '';
+    display: inline-block;
+    background: url("https://www.delltechnologies.com/content/dam/uwaem/production-design-assets/en/microsites/dellemcworld/2020/images/icon-arrow.svg") no-repeat 50% 100%;
+    background-size: 7px;
+    height: 20px;
+    width: 20px; }
+    @media screen and (max-width: 47.99em) {
+      .dt-world .profile-list-component .overlay-hbs-trigger .heading::after {
+        background-size: 5px; } }
+  .dt-world .profile-list-overlay .wrapper-image .aditional-ctas {
+    position: relative;
+    text-indent: -2000px;
+    padding-top: 20px; }
+    .dt-world .profile-list-overlay .wrapper-image .aditional-ctas::before {
+      content: 'Sessions:';
+      display: inline-block;
+      position: absolute;
+      text-indent: 0;
+      top: 0;
+      left: 0;
+      font-weight: 400; }
+    .dt-world .profile-list-overlay .wrapper-image .aditional-ctas a {
+      margin-bottom: 10px;
+      text-indent: 0;
+      color: #444444;
+      cursor: default; }
+  .dt-world .profile-list-overlay .wrapper-text .aditional-ctas {
+    position: relative;
+    text-indent: -2000px;
+    padding-top: 20px; }
+    .dt-world .profile-list-overlay .wrapper-text .aditional-ctas::before {
+      content: 'Sessions:';
+      display: inline-block;
+      position: absolute;
+      text-indent: 0;
+      top: 10px;
+      left: 0;
+      font-weight: 400; }
+    .dt-world .profile-list-overlay .wrapper-text .aditional-ctas a {
+      margin-bottom: 10px;
+      text-indent: 0;
+      color: #444444;
+      cursor: default;
+      text-align: left; }
+  @media screen and (min-width: 48em) {
+    .dt-world .hero01-view .content {
+      height: 560px; } }
+  .dt-world.page--agenda .gradient-area {
+    background: linear-gradient(180deg, white 95%, whitesmoke 100%); }
+
+/*# sourceMappingURL=dt-world.css.map */

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript DOM Course</title>
+    <link rel='stylesheet' type='text/css' href='https://cdn-qa.securiti.xyz/consent/cookie-consent.css' />
+</head>
+
+<body>
+  
+
+<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+    <script>
+        (function () {
+            var s = document.createElement('script');
+            s.src = 'https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk.js';
+            s.setAttribute('data-tenant-uuid', '1e3d5b3a-4afd-48b1-8d65-95cac76e669c');
+            s.setAttribute('data-domain-uuid', 'f5a84baa-bc0f-4cbb-bf9a-9c585376188b');
+            s.setAttribute('data-backend-url', 'https://qa.securiti.xyz');
+            s.defer = true;
+            var parent_node = document.head || document.body;
+            parent_node.appendChild(s);
+            s.addEventListener('load', function() { window.initCmp(); });
+        })()
+        </script>
+
+<button type="button" onclick="upText()">Click here to show image at top</button>
+    <div id="output">DOM (Document Object Model) </div>
+    <img id="5">
+    <h1>Test Name: QA : CMP_Edit_Cookies_OptOut<br>
+    Domain: https://privaci.ai</h1>
+    <h1>admin@testdemoautomation.com</h1>
+    <h3>Last Scanned: Feb 22, 2021, 05:48 PM</h3>
+    <div>
+  before
+  <!-- Rest of stuff inside the div -->
+  after
+</div>
+    <p>Treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.</p>
+    <ul>
+        <li class="yellow">Describes how all the HTML elements are related</li>
+        <li class="yellow">Allows JavaScript to call into the DOM select elements and influcence elements</li>
+        <li class="yellow">DOM is created when the web page loads</li>
+        <li class="yellow">Elements within the page can be accessed and changed</li>
+    </ul>
+    <input type="text" id="45" placeholder="Search Value here...." height="4000" width="4000">
+
+    <div class='leftSide' >Replcase value here</div>
+    <br>
+    <button id="change-color" onclick="updateListdataColor()">Click here to change the backgrround color of the list</button>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"></p>
+    <button class="add-node" onclick="addNode()">Add New Node</button>
+    <div id="444" class="yellow"><p>one</p><p>two</p><p>three</p><p>four</p></div> 
+    
+    <style>
+     ::selection{
+            color:chartreuse;
+        }
+        .leftSide{
+background-color: deepskyblue;
+            float: right
+}
+    
+    </style>
+      <script> 
+     var inputBox=document.getElementById("45");
+     var inputBox2=document.querySelector(".leftSide");
+          inputBox.addEventListener("keydown",runEvent);
+          
+       function runEvent(e){
+            
+            console.log(e.target.value);
+           inputBox2.textContent=e.target.value;
+        }
+
+    </script>
+    <style> 
+    
+    </style>
+<!--
+    <script>
+        
+        var imgClick=document.getElementsByTagName("img")[1];
+        imgClick.onclick=function(){
+            window.open(this.src);
+        }
+        var listItems=document.querySelectorAll("ul>li");
+        
+        for(var x=0;x<listItems.length;x++){
+           listItems[x].onmouseover=function(){
+               console.log(this.innerHTML);
+               this.style.backgroundColor=getRandomColor();
+           } 
+           listItems[x].onmouseout=function(){this.style.backgroundColor="white";}
+        }
+        
+        console.dir(document);
+        var output=document.getElementById("output");
+        
+        
+        function addNode(){
+        var node=document.createElement("p");
+            node.textContent="This node is created newly...";
+            var parentElement=document.getElementById('444');
+            parentElement.appendChild(node);
+            document.getElementById("444").scrollIntoView()
+            
+        }
+        function upText()
+        {
+            var holder=document.getElementById("5");
+            var image=document.getElementsByTagName("img")[1];
+            holder.setAttribute("src",image.src);
+        }
+        var listValues=document.getElementsByTagName('li');
+        function displayListValues()
+        {
+            for(var x=0;x<listValues.length;x++){
+                var newElement=document.createElement("div");
+                newElement.id=x;
+                newElement.className="A"+x;
+                newElement.textContent=listValues[x].textContent;
+                document.getElementsByTagName('p')[1].after(newElement);}
+}
+                    function updateListdataColor()
+            {
+                var list= document.querySelectorAll("ul");
+                for(var x=0;x<list.length;x++)
+                    {
+                        list[x].style.backgroundColor=getRandomColor();
+                    }
+            }
+        function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+    </script>
+-->
+<!--    <style>li.yellow{background-color: yellowgreen}</style>-->
+</body>
+
+</html>

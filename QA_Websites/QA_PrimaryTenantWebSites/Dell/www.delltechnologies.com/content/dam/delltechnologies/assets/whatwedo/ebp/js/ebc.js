@@ -1,0 +1,7 @@
+jQuery(document).ready(function(){jQuery(".plot").hover(function(){var a=jQuery(this).css("stroke");jQuery(this).css("fill",a);},function(){jQuery(this).css("fill","#d9d9d9");});jQuery(".mapFilter").click(function(){jQuery(".mapFilter").removeClass("menuUnderline");
+var a=jQuery(this).attr("data-id");var c=jQuery(this).attr("data-toggle");if(a=="ebc"){var b="#f2af00";if(!jQuery(".map").hasClass("message")){jQuery(".map-message").remove();jQuery(".map").addClass("message");
+jQuery(".map").append('<div class="map-message">Global Field Briefings</div>');jQuery(".plot").hover(function(){jQuery(".map-message").fadeOut(100);jQuery(".map").removeClass("message");});}}if(a=="csc"){var b="#017cb8";
+jQuery(".map-message").remove();jQuery(".map").removeClass("message");}if(a=="both"){var b="#444444";jQuery(".map-message").remove();jQuery(".map").removeClass("message");}if(c=="0"){jQuery(".mapFilter").attr("data-toggle","0");
+jQuery(this).attr("data-toggle","1");jQuery(this).addClass("menuUnderline");jQuery(".plot").each(function(){var d=jQuery(this).attr("data-sel");if(d==a||d=="both"){jQuery(this).show();if(d=="both"){jQuery(this).css("stroke",b);
+}}else{jQuery(this).hide();}});}else{jQuery(this).attr("data-toggle","0");jQuery(this).removeClass("menuUnderline");jQuery(".plot").each(function(){var d=jQuery(this).attr("data-sel");if(d=="both"){var e="#444444";
+jQuery(this).css("stroke",e);}});jQuery(".plot").show();}});});

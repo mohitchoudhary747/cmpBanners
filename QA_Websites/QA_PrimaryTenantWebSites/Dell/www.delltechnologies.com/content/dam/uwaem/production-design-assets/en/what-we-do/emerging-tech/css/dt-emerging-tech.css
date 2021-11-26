@@ -1,0 +1,82 @@
+.dt-emerging-tech {
+  /* index */ }
+
+.dt-emerging-tech .overview-intro .label {
+  color: #444444; }
+.dt-emerging-tech .overview-intro .heading {
+  color: #444444 !important; }
+.dt-emerging-tech .overview-intro p {
+  color: #444444; }
+.dt-emerging-tech .promo04-view .content {
+  height: 250px !important; }
+  @media screen and (min-width: 100em) {
+    .dt-emerging-tech .promo04-view .content {
+      height: 350px !important; } }
+@media screen and (max-width: 61.1875em) {
+  .dt-emerging-tech .promo04-view .wrapper {
+    height: 200px; } }
+@media screen and (min-width: 61.25em) {
+  .dt-emerging-tech .promo04-view .wrapper {
+    height: 180px !important; } }
+@media screen and (min-width: 100em) {
+  .dt-emerging-tech .promo04-view .wrapper {
+    height: 280px !important; } }
+.dt-emerging-tech .promo04-view .wrapper .wrapper-text {
+  text-align: left;
+  bottom: 0;
+  transform: none;
+  top: auto; }
+  .dt-emerging-tech .promo04-view .wrapper .wrapper-text .heading {
+    font-size: 23px;
+    line-height: 24px; }
+.dt-emerging-tech .btn.play.btn.round .cta-play {
+  position: relative;
+  background-color: #0076CE !important;
+  border: 0; }
+.dt-emerging-tech .btn.play.btn.round .cta-play:after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 55%;
+  top: 50%;
+  left: 50%;
+  background: transparent url("https://www.delltechnologies.com/content/dam/uwaem/production-design-assets/en/cloud-site/images/butn-video-arrow.svg") no-repeat 0 0;
+  background-size: 100%;
+  transform: translate(-50%, -50%); }
+.dt-emerging-tech .btn.play.btn.round:hover .cta-play {
+  background-color: #00447C !important; }
+.dt-emerging-tech .wrap-image img {
+  display: block; }
+.dt-emerging-tech .wrapper-caption .caption {
+  color: #FFFFFF; }
+.dt-emerging-tech .wrapper-icon-custom img {
+  height: auto;
+  pointer-events: none; }
+.dt-emerging-tech .tab-container.hide-small {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+.dt-emerging-tech .tab-target {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+.dt-emerging-tech .list01-view ul.xl-1 .list-item {
+  width: 100%; }
+.dt-emerging-tech .has-claim-value {
+  min-width: 70px; }
+  @media screen and (min-width: 61.1875em) {
+    .dt-emerging-tech .has-claim-value {
+      min-width: 120px; } }
+.dt-emerging-tech .min-width-claim .has-claim-value {
+  min-width: 110px; }
+  @media screen and (min-width: 48em) {
+    .dt-emerging-tech .min-width-claim .has-claim-value {
+      min-width: 120px; } }
+  @media screen and (min-width: 61.1875em) {
+    .dt-emerging-tech .min-width-claim .has-claim-value {
+      min-width: 200px; } }
+.dt-emerging-tech .promo03-view .content:not(.no-min-height) {
+  height: auto; }
+.dt-emerging-tech .overview-bg {
+  background-size: contain;
+  background-position-y: bottom; }
+
+/*# sourceMappingURL=dt-emerging-tech.css.map */

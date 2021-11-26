@@ -1,0 +1,998 @@
+@-ms-viewport{width:device-width}
+.bootstrap-delltech html{-webkit-box-sizing:border-box;box-sizing:border-box;-ms-overflow-style:scrollbar}
+.bootstrap-delltech *,.bootstrap-delltech *::before,.bootstrap-delltech *::after{-webkit-box-sizing:inherit;box-sizing:inherit}
+.bootstrap-delltech .container{position:relative;margin-left:auto;margin-right:auto;padding-right:10px;padding-left:10px}
+@media(min-width:640px){.bootstrap-delltech .container{padding-right:10px;padding-left:10px}
+}
+@media(min-width:768px){.bootstrap-delltech .container{padding-right:10px;padding-left:10px}
+}
+@media(min-width:980px){.bootstrap-delltech .container{padding-right:10px;padding-left:10px}
+}
+@media(min-width:1280px){.bootstrap-delltech .container{padding-right:10px;padding-left:10px}
+}
+@media(min-width:640px){.bootstrap-delltech .container{width:540px;max-width:100%}
+}
+@media(min-width:768px){.bootstrap-delltech .container{width:720px;max-width:100%}
+}
+@media(min-width:980px){.bootstrap-delltech .container{width:960px;max-width:100%}
+}
+@media(min-width:1280px){.bootstrap-delltech .container{width:1140px;max-width:100%}
+}
+.bootstrap-delltech .container-fluid{position:relative;margin-left:auto;margin-right:auto;padding-right:10px;padding-left:10px}
+@media(min-width:640px){.bootstrap-delltech .container-fluid{padding-right:10px;padding-left:10px}
+}
+@media(min-width:768px){.bootstrap-delltech .container-fluid{padding-right:10px;padding-left:10px}
+}
+@media(min-width:980px){.bootstrap-delltech .container-fluid{padding-right:10px;padding-left:10px}
+}
+@media(min-width:1280px){.bootstrap-delltech .container-fluid{padding-right:10px;padding-left:10px}
+}
+.bootstrap-delltech .row{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-10px;margin-left:-10px}
+@media(min-width:640px){.bootstrap-delltech .row{margin-right:-10px;margin-left:-10px}
+}
+@media(min-width:768px){.bootstrap-delltech .row{margin-right:-10px;margin-left:-10px}
+}
+@media(min-width:980px){.bootstrap-delltech .row{margin-right:-10px;margin-left:-10px}
+}
+@media(min-width:1280px){.bootstrap-delltech .row{margin-right:-10px;margin-left:-10px}
+}
+.bootstrap-delltech .no-gutters{margin-right:0;margin-left:0}
+.bootstrap-delltech .no-gutters>.col,.bootstrap-delltech .no-gutters>[class*="col-"]{padding-right:0;padding-left:0}
+.bootstrap-delltech .col-1,.bootstrap-delltech .col-2,.bootstrap-delltech .col-3,.bootstrap-delltech .col-4,.bootstrap-delltech .col-5,.bootstrap-delltech .col-6,.bootstrap-delltech .col-7,.bootstrap-delltech .col-8,.bootstrap-delltech .col-9,.bootstrap-delltech .col-10,.bootstrap-delltech .col-11,.bootstrap-delltech .col-12,.bootstrap-delltech .col,.bootstrap-delltech .col-sm-1,.bootstrap-delltech .col-sm-2,.bootstrap-delltech .col-sm-3,.bootstrap-delltech .col-sm-4,.bootstrap-delltech .col-sm-5,.bootstrap-delltech .col-sm-6,.bootstrap-delltech .col-sm-7,.bootstrap-delltech .col-sm-8,.bootstrap-delltech .col-sm-9,.bootstrap-delltech .col-sm-10,.bootstrap-delltech .col-sm-11,.bootstrap-delltech .col-sm-12,.bootstrap-delltech .col-sm,.bootstrap-delltech .col-md-1,.bootstrap-delltech .col-md-2,.bootstrap-delltech .col-md-3,.bootstrap-delltech .col-md-4,.bootstrap-delltech .col-md-5,.bootstrap-delltech .col-md-6,.bootstrap-delltech .col-md-7,.bootstrap-delltech .col-md-8,.bootstrap-delltech .col-md-9,.bootstrap-delltech .col-md-10,.bootstrap-delltech .col-md-11,.bootstrap-delltech .col-md-12,.bootstrap-delltech .col-md,.bootstrap-delltech .col-lg-1,.bootstrap-delltech .col-lg-2,.bootstrap-delltech .col-lg-3,.bootstrap-delltech .col-lg-4,.bootstrap-delltech .col-lg-5,.bootstrap-delltech .col-lg-6,.bootstrap-delltech .col-lg-7,.bootstrap-delltech .col-lg-8,.bootstrap-delltech .col-lg-9,.bootstrap-delltech .col-lg-10,.bootstrap-delltech .col-lg-11,.bootstrap-delltech .col-lg-12,.bootstrap-delltech .col-lg,.bootstrap-delltech .col-xl-1,.bootstrap-delltech .col-xl-2,.bootstrap-delltech .col-xl-3,.bootstrap-delltech .col-xl-4,.bootstrap-delltech .col-xl-5,.bootstrap-delltech .col-xl-6,.bootstrap-delltech .col-xl-7,.bootstrap-delltech .col-xl-8,.bootstrap-delltech .col-xl-9,.bootstrap-delltech .col-xl-10,.bootstrap-delltech .col-xl-11,.bootstrap-delltech .col-xl-12,.bootstrap-delltech .col-xl,.bootstrap-delltech .col-xxl-1,.bootstrap-delltech .col-xxl-2,.bootstrap-delltech .col-xxl-3,.bootstrap-delltech .col-xxl-4,.bootstrap-delltech .col-xxl-5,.bootstrap-delltech .col-xxl-6,.bootstrap-delltech .col-xxl-7,.bootstrap-delltech .col-xxl-8,.bootstrap-delltech .col-xxl-9,.bootstrap-delltech .col-xxl-10,.bootstrap-delltech .col-xxl-11,.bootstrap-delltech .col-xxl-12,.bootstrap-delltech .col-xxl{position:relative;width:100%;min-height:1px;padding-right:10px;padding-left:10px}
+@media(min-width:640px){.bootstrap-delltech .col-1,.bootstrap-delltech .col-2,.bootstrap-delltech .col-3,.bootstrap-delltech .col-4,.bootstrap-delltech .col-5,.bootstrap-delltech .col-6,.bootstrap-delltech .col-7,.bootstrap-delltech .col-8,.bootstrap-delltech .col-9,.bootstrap-delltech .col-10,.bootstrap-delltech .col-11,.bootstrap-delltech .col-12,.bootstrap-delltech .col,.bootstrap-delltech .col-sm-1,.bootstrap-delltech .col-sm-2,.bootstrap-delltech .col-sm-3,.bootstrap-delltech .col-sm-4,.bootstrap-delltech .col-sm-5,.bootstrap-delltech .col-sm-6,.bootstrap-delltech .col-sm-7,.bootstrap-delltech .col-sm-8,.bootstrap-delltech .col-sm-9,.bootstrap-delltech .col-sm-10,.bootstrap-delltech .col-sm-11,.bootstrap-delltech .col-sm-12,.bootstrap-delltech .col-sm,.bootstrap-delltech .col-md-1,.bootstrap-delltech .col-md-2,.bootstrap-delltech .col-md-3,.bootstrap-delltech .col-md-4,.bootstrap-delltech .col-md-5,.bootstrap-delltech .col-md-6,.bootstrap-delltech .col-md-7,.bootstrap-delltech .col-md-8,.bootstrap-delltech .col-md-9,.bootstrap-delltech .col-md-10,.bootstrap-delltech .col-md-11,.bootstrap-delltech .col-md-12,.bootstrap-delltech .col-md,.bootstrap-delltech .col-lg-1,.bootstrap-delltech .col-lg-2,.bootstrap-delltech .col-lg-3,.bootstrap-delltech .col-lg-4,.bootstrap-delltech .col-lg-5,.bootstrap-delltech .col-lg-6,.bootstrap-delltech .col-lg-7,.bootstrap-delltech .col-lg-8,.bootstrap-delltech .col-lg-9,.bootstrap-delltech .col-lg-10,.bootstrap-delltech .col-lg-11,.bootstrap-delltech .col-lg-12,.bootstrap-delltech .col-lg,.bootstrap-delltech .col-xl-1,.bootstrap-delltech .col-xl-2,.bootstrap-delltech .col-xl-3,.bootstrap-delltech .col-xl-4,.bootstrap-delltech .col-xl-5,.bootstrap-delltech .col-xl-6,.bootstrap-delltech .col-xl-7,.bootstrap-delltech .col-xl-8,.bootstrap-delltech .col-xl-9,.bootstrap-delltech .col-xl-10,.bootstrap-delltech .col-xl-11,.bootstrap-delltech .col-xl-12,.bootstrap-delltech .col-xl,.bootstrap-delltech .col-xxl-1,.bootstrap-delltech .col-xxl-2,.bootstrap-delltech .col-xxl-3,.bootstrap-delltech .col-xxl-4,.bootstrap-delltech .col-xxl-5,.bootstrap-delltech .col-xxl-6,.bootstrap-delltech .col-xxl-7,.bootstrap-delltech .col-xxl-8,.bootstrap-delltech .col-xxl-9,.bootstrap-delltech .col-xxl-10,.bootstrap-delltech .col-xxl-11,.bootstrap-delltech .col-xxl-12,.bootstrap-delltech .col-xxl{padding-right:10px;padding-left:10px}
+}
+@media(min-width:768px){.bootstrap-delltech .col-1,.bootstrap-delltech .col-2,.bootstrap-delltech .col-3,.bootstrap-delltech .col-4,.bootstrap-delltech .col-5,.bootstrap-delltech .col-6,.bootstrap-delltech .col-7,.bootstrap-delltech .col-8,.bootstrap-delltech .col-9,.bootstrap-delltech .col-10,.bootstrap-delltech .col-11,.bootstrap-delltech .col-12,.bootstrap-delltech .col,.bootstrap-delltech .col-sm-1,.bootstrap-delltech .col-sm-2,.bootstrap-delltech .col-sm-3,.bootstrap-delltech .col-sm-4,.bootstrap-delltech .col-sm-5,.bootstrap-delltech .col-sm-6,.bootstrap-delltech .col-sm-7,.bootstrap-delltech .col-sm-8,.bootstrap-delltech .col-sm-9,.bootstrap-delltech .col-sm-10,.bootstrap-delltech .col-sm-11,.bootstrap-delltech .col-sm-12,.bootstrap-delltech .col-sm,.bootstrap-delltech .col-md-1,.bootstrap-delltech .col-md-2,.bootstrap-delltech .col-md-3,.bootstrap-delltech .col-md-4,.bootstrap-delltech .col-md-5,.bootstrap-delltech .col-md-6,.bootstrap-delltech .col-md-7,.bootstrap-delltech .col-md-8,.bootstrap-delltech .col-md-9,.bootstrap-delltech .col-md-10,.bootstrap-delltech .col-md-11,.bootstrap-delltech .col-md-12,.bootstrap-delltech .col-md,.bootstrap-delltech .col-lg-1,.bootstrap-delltech .col-lg-2,.bootstrap-delltech .col-lg-3,.bootstrap-delltech .col-lg-4,.bootstrap-delltech .col-lg-5,.bootstrap-delltech .col-lg-6,.bootstrap-delltech .col-lg-7,.bootstrap-delltech .col-lg-8,.bootstrap-delltech .col-lg-9,.bootstrap-delltech .col-lg-10,.bootstrap-delltech .col-lg-11,.bootstrap-delltech .col-lg-12,.bootstrap-delltech .col-lg,.bootstrap-delltech .col-xl-1,.bootstrap-delltech .col-xl-2,.bootstrap-delltech .col-xl-3,.bootstrap-delltech .col-xl-4,.bootstrap-delltech .col-xl-5,.bootstrap-delltech .col-xl-6,.bootstrap-delltech .col-xl-7,.bootstrap-delltech .col-xl-8,.bootstrap-delltech .col-xl-9,.bootstrap-delltech .col-xl-10,.bootstrap-delltech .col-xl-11,.bootstrap-delltech .col-xl-12,.bootstrap-delltech .col-xl,.bootstrap-delltech .col-xxl-1,.bootstrap-delltech .col-xxl-2,.bootstrap-delltech .col-xxl-3,.bootstrap-delltech .col-xxl-4,.bootstrap-delltech .col-xxl-5,.bootstrap-delltech .col-xxl-6,.bootstrap-delltech .col-xxl-7,.bootstrap-delltech .col-xxl-8,.bootstrap-delltech .col-xxl-9,.bootstrap-delltech .col-xxl-10,.bootstrap-delltech .col-xxl-11,.bootstrap-delltech .col-xxl-12,.bootstrap-delltech .col-xxl{padding-right:10px;padding-left:10px}
+}
+@media(min-width:980px){.bootstrap-delltech .col-1,.bootstrap-delltech .col-2,.bootstrap-delltech .col-3,.bootstrap-delltech .col-4,.bootstrap-delltech .col-5,.bootstrap-delltech .col-6,.bootstrap-delltech .col-7,.bootstrap-delltech .col-8,.bootstrap-delltech .col-9,.bootstrap-delltech .col-10,.bootstrap-delltech .col-11,.bootstrap-delltech .col-12,.bootstrap-delltech .col,.bootstrap-delltech .col-sm-1,.bootstrap-delltech .col-sm-2,.bootstrap-delltech .col-sm-3,.bootstrap-delltech .col-sm-4,.bootstrap-delltech .col-sm-5,.bootstrap-delltech .col-sm-6,.bootstrap-delltech .col-sm-7,.bootstrap-delltech .col-sm-8,.bootstrap-delltech .col-sm-9,.bootstrap-delltech .col-sm-10,.bootstrap-delltech .col-sm-11,.bootstrap-delltech .col-sm-12,.bootstrap-delltech .col-sm,.bootstrap-delltech .col-md-1,.bootstrap-delltech .col-md-2,.bootstrap-delltech .col-md-3,.bootstrap-delltech .col-md-4,.bootstrap-delltech .col-md-5,.bootstrap-delltech .col-md-6,.bootstrap-delltech .col-md-7,.bootstrap-delltech .col-md-8,.bootstrap-delltech .col-md-9,.bootstrap-delltech .col-md-10,.bootstrap-delltech .col-md-11,.bootstrap-delltech .col-md-12,.bootstrap-delltech .col-md,.bootstrap-delltech .col-lg-1,.bootstrap-delltech .col-lg-2,.bootstrap-delltech .col-lg-3,.bootstrap-delltech .col-lg-4,.bootstrap-delltech .col-lg-5,.bootstrap-delltech .col-lg-6,.bootstrap-delltech .col-lg-7,.bootstrap-delltech .col-lg-8,.bootstrap-delltech .col-lg-9,.bootstrap-delltech .col-lg-10,.bootstrap-delltech .col-lg-11,.bootstrap-delltech .col-lg-12,.bootstrap-delltech .col-lg,.bootstrap-delltech .col-xl-1,.bootstrap-delltech .col-xl-2,.bootstrap-delltech .col-xl-3,.bootstrap-delltech .col-xl-4,.bootstrap-delltech .col-xl-5,.bootstrap-delltech .col-xl-6,.bootstrap-delltech .col-xl-7,.bootstrap-delltech .col-xl-8,.bootstrap-delltech .col-xl-9,.bootstrap-delltech .col-xl-10,.bootstrap-delltech .col-xl-11,.bootstrap-delltech .col-xl-12,.bootstrap-delltech .col-xl,.bootstrap-delltech .col-xxl-1,.bootstrap-delltech .col-xxl-2,.bootstrap-delltech .col-xxl-3,.bootstrap-delltech .col-xxl-4,.bootstrap-delltech .col-xxl-5,.bootstrap-delltech .col-xxl-6,.bootstrap-delltech .col-xxl-7,.bootstrap-delltech .col-xxl-8,.bootstrap-delltech .col-xxl-9,.bootstrap-delltech .col-xxl-10,.bootstrap-delltech .col-xxl-11,.bootstrap-delltech .col-xxl-12,.bootstrap-delltech .col-xxl{padding-right:10px;padding-left:10px}
+}
+@media(min-width:1280px){.bootstrap-delltech .col-1,.bootstrap-delltech .col-2,.bootstrap-delltech .col-3,.bootstrap-delltech .col-4,.bootstrap-delltech .col-5,.bootstrap-delltech .col-6,.bootstrap-delltech .col-7,.bootstrap-delltech .col-8,.bootstrap-delltech .col-9,.bootstrap-delltech .col-10,.bootstrap-delltech .col-11,.bootstrap-delltech .col-12,.bootstrap-delltech .col,.bootstrap-delltech .col-sm-1,.bootstrap-delltech .col-sm-2,.bootstrap-delltech .col-sm-3,.bootstrap-delltech .col-sm-4,.bootstrap-delltech .col-sm-5,.bootstrap-delltech .col-sm-6,.bootstrap-delltech .col-sm-7,.bootstrap-delltech .col-sm-8,.bootstrap-delltech .col-sm-9,.bootstrap-delltech .col-sm-10,.bootstrap-delltech .col-sm-11,.bootstrap-delltech .col-sm-12,.bootstrap-delltech .col-sm,.bootstrap-delltech .col-md-1,.bootstrap-delltech .col-md-2,.bootstrap-delltech .col-md-3,.bootstrap-delltech .col-md-4,.bootstrap-delltech .col-md-5,.bootstrap-delltech .col-md-6,.bootstrap-delltech .col-md-7,.bootstrap-delltech .col-md-8,.bootstrap-delltech .col-md-9,.bootstrap-delltech .col-md-10,.bootstrap-delltech .col-md-11,.bootstrap-delltech .col-md-12,.bootstrap-delltech .col-md,.bootstrap-delltech .col-lg-1,.bootstrap-delltech .col-lg-2,.bootstrap-delltech .col-lg-3,.bootstrap-delltech .col-lg-4,.bootstrap-delltech .col-lg-5,.bootstrap-delltech .col-lg-6,.bootstrap-delltech .col-lg-7,.bootstrap-delltech .col-lg-8,.bootstrap-delltech .col-lg-9,.bootstrap-delltech .col-lg-10,.bootstrap-delltech .col-lg-11,.bootstrap-delltech .col-lg-12,.bootstrap-delltech .col-lg,.bootstrap-delltech .col-xl-1,.bootstrap-delltech .col-xl-2,.bootstrap-delltech .col-xl-3,.bootstrap-delltech .col-xl-4,.bootstrap-delltech .col-xl-5,.bootstrap-delltech .col-xl-6,.bootstrap-delltech .col-xl-7,.bootstrap-delltech .col-xl-8,.bootstrap-delltech .col-xl-9,.bootstrap-delltech .col-xl-10,.bootstrap-delltech .col-xl-11,.bootstrap-delltech .col-xl-12,.bootstrap-delltech .col-xl,.bootstrap-delltech .col-xxl-1,.bootstrap-delltech .col-xxl-2,.bootstrap-delltech .col-xxl-3,.bootstrap-delltech .col-xxl-4,.bootstrap-delltech .col-xxl-5,.bootstrap-delltech .col-xxl-6,.bootstrap-delltech .col-xxl-7,.bootstrap-delltech .col-xxl-8,.bootstrap-delltech .col-xxl-9,.bootstrap-delltech .col-xxl-10,.bootstrap-delltech .col-xxl-11,.bootstrap-delltech .col-xxl-12,.bootstrap-delltech .col-xxl{padding-right:10px;padding-left:10px}
+}
+.bootstrap-delltech .col{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.bootstrap-delltech .col-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}
+.bootstrap-delltech .col-1{-webkit-box-flex:0;-webkit-flex:0 0 8.333333%;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}
+.bootstrap-delltech .col-2{-webkit-box-flex:0;-webkit-flex:0 0 16.666667%;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}
+.bootstrap-delltech .col-3{-webkit-box-flex:0;-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
+.bootstrap-delltech .col-4{-webkit-box-flex:0;-webkit-flex:0 0 33.333333%;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.bootstrap-delltech .col-5{-webkit-box-flex:0;-webkit-flex:0 0 41.666667%;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
+.bootstrap-delltech .col-6{-webkit-box-flex:0;-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.bootstrap-delltech .col-7{-webkit-box-flex:0;-webkit-flex:0 0 58.333333%;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}
+.bootstrap-delltech .col-8{-webkit-box-flex:0;-webkit-flex:0 0 66.666667%;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+.bootstrap-delltech .col-9{-webkit-box-flex:0;-webkit-flex:0 0 75%;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}
+.bootstrap-delltech .col-10{-webkit-box-flex:0;-webkit-flex:0 0 83.333333%;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}
+.bootstrap-delltech .col-11{-webkit-box-flex:0;-webkit-flex:0 0 91.666667%;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}
+.bootstrap-delltech .col-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.bootstrap-delltech .pull-0{right:auto}
+.bootstrap-delltech .pull-1{right:8.333333%}
+.bootstrap-delltech .pull-2{right:16.666667%}
+.bootstrap-delltech .pull-3{right:25%}
+.bootstrap-delltech .pull-4{right:33.333333%}
+.bootstrap-delltech .pull-5{right:41.666667%}
+.bootstrap-delltech .pull-6{right:50%}
+.bootstrap-delltech .pull-7{right:58.333333%}
+.bootstrap-delltech .pull-8{right:66.666667%}
+.bootstrap-delltech .pull-9{right:75%}
+.bootstrap-delltech .pull-10{right:83.333333%}
+.bootstrap-delltech .pull-11{right:91.666667%}
+.bootstrap-delltech .pull-12{right:100%}
+.bootstrap-delltech .push-0{left:auto}
+.bootstrap-delltech .push-1{left:8.333333%}
+.bootstrap-delltech .push-2{left:16.666667%}
+.bootstrap-delltech .push-3{left:25%}
+.bootstrap-delltech .push-4{left:33.333333%}
+.bootstrap-delltech .push-5{left:41.666667%}
+.bootstrap-delltech .push-6{left:50%}
+.bootstrap-delltech .push-7{left:58.333333%}
+.bootstrap-delltech .push-8{left:66.666667%}
+.bootstrap-delltech .push-9{left:75%}
+.bootstrap-delltech .push-10{left:83.333333%}
+.bootstrap-delltech .push-11{left:91.666667%}
+.bootstrap-delltech .push-12{left:100%}
+.bootstrap-delltech .offset-1{margin-left:8.333333%}
+.bootstrap-delltech .offset-2{margin-left:16.666667%}
+.bootstrap-delltech .offset-3{margin-left:25%}
+.bootstrap-delltech .offset-4{margin-left:33.333333%}
+.bootstrap-delltech .offset-5{margin-left:41.666667%}
+.bootstrap-delltech .offset-6{margin-left:50%}
+.bootstrap-delltech .offset-7{margin-left:58.333333%}
+.bootstrap-delltech .offset-8{margin-left:66.666667%}
+.bootstrap-delltech .offset-9{margin-left:75%}
+.bootstrap-delltech .offset-10{margin-left:83.333333%}
+.bootstrap-delltech .offset-11{margin-left:91.666667%}
+@media(min-width:640px){.bootstrap-delltech .col-sm{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.bootstrap-delltech .col-sm-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}
+.bootstrap-delltech .col-sm-1{-webkit-box-flex:0;-webkit-flex:0 0 8.333333%;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}
+.bootstrap-delltech .col-sm-2{-webkit-box-flex:0;-webkit-flex:0 0 16.666667%;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}
+.bootstrap-delltech .col-sm-3{-webkit-box-flex:0;-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
+.bootstrap-delltech .col-sm-4{-webkit-box-flex:0;-webkit-flex:0 0 33.333333%;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.bootstrap-delltech .col-sm-5{-webkit-box-flex:0;-webkit-flex:0 0 41.666667%;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
+.bootstrap-delltech .col-sm-6{-webkit-box-flex:0;-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.bootstrap-delltech .col-sm-7{-webkit-box-flex:0;-webkit-flex:0 0 58.333333%;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}
+.bootstrap-delltech .col-sm-8{-webkit-box-flex:0;-webkit-flex:0 0 66.666667%;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+.bootstrap-delltech .col-sm-9{-webkit-box-flex:0;-webkit-flex:0 0 75%;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}
+.bootstrap-delltech .col-sm-10{-webkit-box-flex:0;-webkit-flex:0 0 83.333333%;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}
+.bootstrap-delltech .col-sm-11{-webkit-box-flex:0;-webkit-flex:0 0 91.666667%;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}
+.bootstrap-delltech .col-sm-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.bootstrap-delltech .pull-sm-0{right:auto}
+.bootstrap-delltech .pull-sm-1{right:8.333333%}
+.bootstrap-delltech .pull-sm-2{right:16.666667%}
+.bootstrap-delltech .pull-sm-3{right:25%}
+.bootstrap-delltech .pull-sm-4{right:33.333333%}
+.bootstrap-delltech .pull-sm-5{right:41.666667%}
+.bootstrap-delltech .pull-sm-6{right:50%}
+.bootstrap-delltech .pull-sm-7{right:58.333333%}
+.bootstrap-delltech .pull-sm-8{right:66.666667%}
+.bootstrap-delltech .pull-sm-9{right:75%}
+.bootstrap-delltech .pull-sm-10{right:83.333333%}
+.bootstrap-delltech .pull-sm-11{right:91.666667%}
+.bootstrap-delltech .pull-sm-12{right:100%}
+.bootstrap-delltech .push-sm-0{left:auto}
+.bootstrap-delltech .push-sm-1{left:8.333333%}
+.bootstrap-delltech .push-sm-2{left:16.666667%}
+.bootstrap-delltech .push-sm-3{left:25%}
+.bootstrap-delltech .push-sm-4{left:33.333333%}
+.bootstrap-delltech .push-sm-5{left:41.666667%}
+.bootstrap-delltech .push-sm-6{left:50%}
+.bootstrap-delltech .push-sm-7{left:58.333333%}
+.bootstrap-delltech .push-sm-8{left:66.666667%}
+.bootstrap-delltech .push-sm-9{left:75%}
+.bootstrap-delltech .push-sm-10{left:83.333333%}
+.bootstrap-delltech .push-sm-11{left:91.666667%}
+.bootstrap-delltech .push-sm-12{left:100%}
+.bootstrap-delltech .offset-sm-0{margin-left:0}
+.bootstrap-delltech .offset-sm-1{margin-left:8.333333%}
+.bootstrap-delltech .offset-sm-2{margin-left:16.666667%}
+.bootstrap-delltech .offset-sm-3{margin-left:25%}
+.bootstrap-delltech .offset-sm-4{margin-left:33.333333%}
+.bootstrap-delltech .offset-sm-5{margin-left:41.666667%}
+.bootstrap-delltech .offset-sm-6{margin-left:50%}
+.bootstrap-delltech .offset-sm-7{margin-left:58.333333%}
+.bootstrap-delltech .offset-sm-8{margin-left:66.666667%}
+.bootstrap-delltech .offset-sm-9{margin-left:75%}
+.bootstrap-delltech .offset-sm-10{margin-left:83.333333%}
+.bootstrap-delltech .offset-sm-11{margin-left:91.666667%}
+}
+@media(min-width:768px){.bootstrap-delltech .col-md{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.bootstrap-delltech .col-md-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}
+.bootstrap-delltech .col-md-1{-webkit-box-flex:0;-webkit-flex:0 0 8.333333%;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}
+.bootstrap-delltech .col-md-2{-webkit-box-flex:0;-webkit-flex:0 0 16.666667%;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}
+.bootstrap-delltech .col-md-3{-webkit-box-flex:0;-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
+.bootstrap-delltech .col-md-4{-webkit-box-flex:0;-webkit-flex:0 0 33.333333%;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.bootstrap-delltech .col-md-5{-webkit-box-flex:0;-webkit-flex:0 0 41.666667%;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
+.bootstrap-delltech .col-md-6{-webkit-box-flex:0;-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.bootstrap-delltech .col-md-7{-webkit-box-flex:0;-webkit-flex:0 0 58.333333%;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}
+.bootstrap-delltech .col-md-8{-webkit-box-flex:0;-webkit-flex:0 0 66.666667%;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+.bootstrap-delltech .col-md-9{-webkit-box-flex:0;-webkit-flex:0 0 75%;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}
+.bootstrap-delltech .col-md-10{-webkit-box-flex:0;-webkit-flex:0 0 83.333333%;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}
+.bootstrap-delltech .col-md-11{-webkit-box-flex:0;-webkit-flex:0 0 91.666667%;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}
+.bootstrap-delltech .col-md-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.bootstrap-delltech .pull-md-0{right:auto}
+.bootstrap-delltech .pull-md-1{right:8.333333%}
+.bootstrap-delltech .pull-md-2{right:16.666667%}
+.bootstrap-delltech .pull-md-3{right:25%}
+.bootstrap-delltech .pull-md-4{right:33.333333%}
+.bootstrap-delltech .pull-md-5{right:41.666667%}
+.bootstrap-delltech .pull-md-6{right:50%}
+.bootstrap-delltech .pull-md-7{right:58.333333%}
+.bootstrap-delltech .pull-md-8{right:66.666667%}
+.bootstrap-delltech .pull-md-9{right:75%}
+.bootstrap-delltech .pull-md-10{right:83.333333%}
+.bootstrap-delltech .pull-md-11{right:91.666667%}
+.bootstrap-delltech .pull-md-12{right:100%}
+.bootstrap-delltech .push-md-0{left:auto}
+.bootstrap-delltech .push-md-1{left:8.333333%}
+.bootstrap-delltech .push-md-2{left:16.666667%}
+.bootstrap-delltech .push-md-3{left:25%}
+.bootstrap-delltech .push-md-4{left:33.333333%}
+.bootstrap-delltech .push-md-5{left:41.666667%}
+.bootstrap-delltech .push-md-6{left:50%}
+.bootstrap-delltech .push-md-7{left:58.333333%}
+.bootstrap-delltech .push-md-8{left:66.666667%}
+.bootstrap-delltech .push-md-9{left:75%}
+.bootstrap-delltech .push-md-10{left:83.333333%}
+.bootstrap-delltech .push-md-11{left:91.666667%}
+.bootstrap-delltech .push-md-12{left:100%}
+.bootstrap-delltech .offset-md-0{margin-left:0}
+.bootstrap-delltech .offset-md-1{margin-left:8.333333%}
+.bootstrap-delltech .offset-md-2{margin-left:16.666667%}
+.bootstrap-delltech .offset-md-3{margin-left:25%}
+.bootstrap-delltech .offset-md-4{margin-left:33.333333%}
+.bootstrap-delltech .offset-md-5{margin-left:41.666667%}
+.bootstrap-delltech .offset-md-6{margin-left:50%}
+.bootstrap-delltech .offset-md-7{margin-left:58.333333%}
+.bootstrap-delltech .offset-md-8{margin-left:66.666667%}
+.bootstrap-delltech .offset-md-9{margin-left:75%}
+.bootstrap-delltech .offset-md-10{margin-left:83.333333%}
+.bootstrap-delltech .offset-md-11{margin-left:91.666667%}
+}
+@media(min-width:980px){.bootstrap-delltech .col-lg{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.bootstrap-delltech .col-lg-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}
+.bootstrap-delltech .col-lg-1{-webkit-box-flex:0;-webkit-flex:0 0 8.333333%;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}
+.bootstrap-delltech .col-lg-2{-webkit-box-flex:0;-webkit-flex:0 0 16.666667%;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}
+.bootstrap-delltech .col-lg-3{-webkit-box-flex:0;-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
+.bootstrap-delltech .col-lg-4{-webkit-box-flex:0;-webkit-flex:0 0 33.333333%;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.bootstrap-delltech .col-lg-5{-webkit-box-flex:0;-webkit-flex:0 0 41.666667%;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
+.bootstrap-delltech .col-lg-6{-webkit-box-flex:0;-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.bootstrap-delltech .col-lg-7{-webkit-box-flex:0;-webkit-flex:0 0 58.333333%;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}
+.bootstrap-delltech .col-lg-8{-webkit-box-flex:0;-webkit-flex:0 0 66.666667%;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+.bootstrap-delltech .col-lg-9{-webkit-box-flex:0;-webkit-flex:0 0 75%;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}
+.bootstrap-delltech .col-lg-10{-webkit-box-flex:0;-webkit-flex:0 0 83.333333%;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}
+.bootstrap-delltech .col-lg-11{-webkit-box-flex:0;-webkit-flex:0 0 91.666667%;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}
+.bootstrap-delltech .col-lg-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.bootstrap-delltech .pull-lg-0{right:auto}
+.bootstrap-delltech .pull-lg-1{right:8.333333%}
+.bootstrap-delltech .pull-lg-2{right:16.666667%}
+.bootstrap-delltech .pull-lg-3{right:25%}
+.bootstrap-delltech .pull-lg-4{right:33.333333%}
+.bootstrap-delltech .pull-lg-5{right:41.666667%}
+.bootstrap-delltech .pull-lg-6{right:50%}
+.bootstrap-delltech .pull-lg-7{right:58.333333%}
+.bootstrap-delltech .pull-lg-8{right:66.666667%}
+.bootstrap-delltech .pull-lg-9{right:75%}
+.bootstrap-delltech .pull-lg-10{right:83.333333%}
+.bootstrap-delltech .pull-lg-11{right:91.666667%}
+.bootstrap-delltech .pull-lg-12{right:100%}
+.bootstrap-delltech .push-lg-0{left:auto}
+.bootstrap-delltech .push-lg-1{left:8.333333%}
+.bootstrap-delltech .push-lg-2{left:16.666667%}
+.bootstrap-delltech .push-lg-3{left:25%}
+.bootstrap-delltech .push-lg-4{left:33.333333%}
+.bootstrap-delltech .push-lg-5{left:41.666667%}
+.bootstrap-delltech .push-lg-6{left:50%}
+.bootstrap-delltech .push-lg-7{left:58.333333%}
+.bootstrap-delltech .push-lg-8{left:66.666667%}
+.bootstrap-delltech .push-lg-9{left:75%}
+.bootstrap-delltech .push-lg-10{left:83.333333%}
+.bootstrap-delltech .push-lg-11{left:91.666667%}
+.bootstrap-delltech .push-lg-12{left:100%}
+.bootstrap-delltech .offset-lg-0{margin-left:0}
+.bootstrap-delltech .offset-lg-1{margin-left:8.333333%}
+.bootstrap-delltech .offset-lg-2{margin-left:16.666667%}
+.bootstrap-delltech .offset-lg-3{margin-left:25%}
+.bootstrap-delltech .offset-lg-4{margin-left:33.333333%}
+.bootstrap-delltech .offset-lg-5{margin-left:41.666667%}
+.bootstrap-delltech .offset-lg-6{margin-left:50%}
+.bootstrap-delltech .offset-lg-7{margin-left:58.333333%}
+.bootstrap-delltech .offset-lg-8{margin-left:66.666667%}
+.bootstrap-delltech .offset-lg-9{margin-left:75%}
+.bootstrap-delltech .offset-lg-10{margin-left:83.333333%}
+.bootstrap-delltech .offset-lg-11{margin-left:91.666667%}
+}
+@media(min-width:1280px){.bootstrap-delltech .col-xl{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.bootstrap-delltech .col-xl-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}
+.bootstrap-delltech .col-xl-1{-webkit-box-flex:0;-webkit-flex:0 0 8.333333%;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}
+.bootstrap-delltech .col-xl-2{-webkit-box-flex:0;-webkit-flex:0 0 16.666667%;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}
+.bootstrap-delltech .col-xl-3{-webkit-box-flex:0;-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
+.bootstrap-delltech .col-xl-4{-webkit-box-flex:0;-webkit-flex:0 0 33.333333%;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.bootstrap-delltech .col-xl-5{-webkit-box-flex:0;-webkit-flex:0 0 41.666667%;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
+.bootstrap-delltech .col-xl-6{-webkit-box-flex:0;-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.bootstrap-delltech .col-xl-7{-webkit-box-flex:0;-webkit-flex:0 0 58.333333%;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}
+.bootstrap-delltech .col-xl-8{-webkit-box-flex:0;-webkit-flex:0 0 66.666667%;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+.bootstrap-delltech .col-xl-9{-webkit-box-flex:0;-webkit-flex:0 0 75%;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}
+.bootstrap-delltech .col-xl-10{-webkit-box-flex:0;-webkit-flex:0 0 83.333333%;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}
+.bootstrap-delltech .col-xl-11{-webkit-box-flex:0;-webkit-flex:0 0 91.666667%;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}
+.bootstrap-delltech .col-xl-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.bootstrap-delltech .pull-xl-0{right:auto}
+.bootstrap-delltech .pull-xl-1{right:8.333333%}
+.bootstrap-delltech .pull-xl-2{right:16.666667%}
+.bootstrap-delltech .pull-xl-3{right:25%}
+.bootstrap-delltech .pull-xl-4{right:33.333333%}
+.bootstrap-delltech .pull-xl-5{right:41.666667%}
+.bootstrap-delltech .pull-xl-6{right:50%}
+.bootstrap-delltech .pull-xl-7{right:58.333333%}
+.bootstrap-delltech .pull-xl-8{right:66.666667%}
+.bootstrap-delltech .pull-xl-9{right:75%}
+.bootstrap-delltech .pull-xl-10{right:83.333333%}
+.bootstrap-delltech .pull-xl-11{right:91.666667%}
+.bootstrap-delltech .pull-xl-12{right:100%}
+.bootstrap-delltech .push-xl-0{left:auto}
+.bootstrap-delltech .push-xl-1{left:8.333333%}
+.bootstrap-delltech .push-xl-2{left:16.666667%}
+.bootstrap-delltech .push-xl-3{left:25%}
+.bootstrap-delltech .push-xl-4{left:33.333333%}
+.bootstrap-delltech .push-xl-5{left:41.666667%}
+.bootstrap-delltech .push-xl-6{left:50%}
+.bootstrap-delltech .push-xl-7{left:58.333333%}
+.bootstrap-delltech .push-xl-8{left:66.666667%}
+.bootstrap-delltech .push-xl-9{left:75%}
+.bootstrap-delltech .push-xl-10{left:83.333333%}
+.bootstrap-delltech .push-xl-11{left:91.666667%}
+.bootstrap-delltech .push-xl-12{left:100%}
+.bootstrap-delltech .offset-xl-0{margin-left:0}
+.bootstrap-delltech .offset-xl-1{margin-left:8.333333%}
+.bootstrap-delltech .offset-xl-2{margin-left:16.666667%}
+.bootstrap-delltech .offset-xl-3{margin-left:25%}
+.bootstrap-delltech .offset-xl-4{margin-left:33.333333%}
+.bootstrap-delltech .offset-xl-5{margin-left:41.666667%}
+.bootstrap-delltech .offset-xl-6{margin-left:50%}
+.bootstrap-delltech .offset-xl-7{margin-left:58.333333%}
+.bootstrap-delltech .offset-xl-8{margin-left:66.666667%}
+.bootstrap-delltech .offset-xl-9{margin-left:75%}
+.bootstrap-delltech .offset-xl-10{margin-left:83.333333%}
+.bootstrap-delltech .offset-xl-11{margin-left:91.666667%}
+}
+@media(min-width:1600px){.bootstrap-delltech .col-xxl{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.bootstrap-delltech .col-xxl-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}
+.bootstrap-delltech .col-xxl-1{-webkit-box-flex:0;-webkit-flex:0 0 8.333333%;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}
+.bootstrap-delltech .col-xxl-2{-webkit-box-flex:0;-webkit-flex:0 0 16.666667%;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}
+.bootstrap-delltech .col-xxl-3{-webkit-box-flex:0;-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
+.bootstrap-delltech .col-xxl-4{-webkit-box-flex:0;-webkit-flex:0 0 33.333333%;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.bootstrap-delltech .col-xxl-5{-webkit-box-flex:0;-webkit-flex:0 0 41.666667%;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
+.bootstrap-delltech .col-xxl-6{-webkit-box-flex:0;-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.bootstrap-delltech .col-xxl-7{-webkit-box-flex:0;-webkit-flex:0 0 58.333333%;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}
+.bootstrap-delltech .col-xxl-8{-webkit-box-flex:0;-webkit-flex:0 0 66.666667%;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+.bootstrap-delltech .col-xxl-9{-webkit-box-flex:0;-webkit-flex:0 0 75%;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}
+.bootstrap-delltech .col-xxl-10{-webkit-box-flex:0;-webkit-flex:0 0 83.333333%;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}
+.bootstrap-delltech .col-xxl-11{-webkit-box-flex:0;-webkit-flex:0 0 91.666667%;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}
+.bootstrap-delltech .col-xxl-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.bootstrap-delltech .pull-xxl-0{right:auto}
+.bootstrap-delltech .pull-xxl-1{right:8.333333%}
+.bootstrap-delltech .pull-xxl-2{right:16.666667%}
+.bootstrap-delltech .pull-xxl-3{right:25%}
+.bootstrap-delltech .pull-xxl-4{right:33.333333%}
+.bootstrap-delltech .pull-xxl-5{right:41.666667%}
+.bootstrap-delltech .pull-xxl-6{right:50%}
+.bootstrap-delltech .pull-xxl-7{right:58.333333%}
+.bootstrap-delltech .pull-xxl-8{right:66.666667%}
+.bootstrap-delltech .pull-xxl-9{right:75%}
+.bootstrap-delltech .pull-xxl-10{right:83.333333%}
+.bootstrap-delltech .pull-xxl-11{right:91.666667%}
+.bootstrap-delltech .pull-xxl-12{right:100%}
+.bootstrap-delltech .push-xxl-0{left:auto}
+.bootstrap-delltech .push-xxl-1{left:8.333333%}
+.bootstrap-delltech .push-xxl-2{left:16.666667%}
+.bootstrap-delltech .push-xxl-3{left:25%}
+.bootstrap-delltech .push-xxl-4{left:33.333333%}
+.bootstrap-delltech .push-xxl-5{left:41.666667%}
+.bootstrap-delltech .push-xxl-6{left:50%}
+.bootstrap-delltech .push-xxl-7{left:58.333333%}
+.bootstrap-delltech .push-xxl-8{left:66.666667%}
+.bootstrap-delltech .push-xxl-9{left:75%}
+.bootstrap-delltech .push-xxl-10{left:83.333333%}
+.bootstrap-delltech .push-xxl-11{left:91.666667%}
+.bootstrap-delltech .push-xxl-12{left:100%}
+.bootstrap-delltech .offset-xxl-0{margin-left:0}
+.bootstrap-delltech .offset-xxl-1{margin-left:8.333333%}
+.bootstrap-delltech .offset-xxl-2{margin-left:16.666667%}
+.bootstrap-delltech .offset-xxl-3{margin-left:25%}
+.bootstrap-delltech .offset-xxl-4{margin-left:33.333333%}
+.bootstrap-delltech .offset-xxl-5{margin-left:41.666667%}
+.bootstrap-delltech .offset-xxl-6{margin-left:50%}
+.bootstrap-delltech .offset-xxl-7{margin-left:58.333333%}
+.bootstrap-delltech .offset-xxl-8{margin-left:66.666667%}
+.bootstrap-delltech .offset-xxl-9{margin-left:75%}
+.bootstrap-delltech .offset-xxl-10{margin-left:83.333333%}
+.bootstrap-delltech .offset-xxl-11{margin-left:91.666667%}
+}
+.bootstrap-delltech .m-0{margin:0 0 !important}
+.bootstrap-delltech .mt-0{margin-top:0 !important}
+.bootstrap-delltech .mr-0{margin-right:0 !important}
+.bootstrap-delltech .mb-0{margin-bottom:0 !important}
+.bootstrap-delltech .ml-0{margin-left:0 !important}
+.bootstrap-delltech .mx-0{margin-right:0 !important;margin-left:0 !important}
+.bootstrap-delltech .my-0{margin-top:0 !important;margin-bottom:0 !important}
+.bootstrap-delltech .m-1{margin:.25rem .25rem !important}
+.bootstrap-delltech .mt-1{margin-top:.25rem !important}
+.bootstrap-delltech .mr-1{margin-right:.25rem !important}
+.bootstrap-delltech .mb-1{margin-bottom:.25rem !important}
+.bootstrap-delltech .ml-1{margin-left:.25rem !important}
+.bootstrap-delltech .mx-1{margin-right:.25rem !important;margin-left:.25rem !important}
+.bootstrap-delltech .my-1{margin-top:.25rem !important;margin-bottom:.25rem !important}
+.bootstrap-delltech .m-2{margin:.5rem .5rem !important}
+.bootstrap-delltech .mt-2{margin-top:.5rem !important}
+.bootstrap-delltech .mr-2{margin-right:.5rem !important}
+.bootstrap-delltech .mb-2{margin-bottom:.5rem !important}
+.bootstrap-delltech .ml-2{margin-left:.5rem !important}
+.bootstrap-delltech .mx-2{margin-right:.5rem !important;margin-left:.5rem !important}
+.bootstrap-delltech .my-2{margin-top:.5rem !important;margin-bottom:.5rem !important}
+.bootstrap-delltech .m-3{margin:1rem 1rem !important}
+.bootstrap-delltech .mt-3{margin-top:1rem !important}
+.bootstrap-delltech .mr-3{margin-right:1rem !important}
+.bootstrap-delltech .mb-3{margin-bottom:1rem !important}
+.bootstrap-delltech .ml-3{margin-left:1rem !important}
+.bootstrap-delltech .mx-3{margin-right:1rem !important;margin-left:1rem !important}
+.bootstrap-delltech .my-3{margin-top:1rem !important;margin-bottom:1rem !important}
+.bootstrap-delltech .m-4{margin:1.5rem 1.5rem !important}
+.bootstrap-delltech .mt-4{margin-top:1.5rem !important}
+.bootstrap-delltech .mr-4{margin-right:1.5rem !important}
+.bootstrap-delltech .mb-4{margin-bottom:1.5rem !important}
+.bootstrap-delltech .ml-4{margin-left:1.5rem !important}
+.bootstrap-delltech .mx-4{margin-right:1.5rem !important;margin-left:1.5rem !important}
+.bootstrap-delltech .my-4{margin-top:1.5rem !important;margin-bottom:1.5rem !important}
+.bootstrap-delltech .m-5{margin:3rem 3rem !important}
+.bootstrap-delltech .mt-5{margin-top:3rem !important}
+.bootstrap-delltech .mr-5{margin-right:3rem !important}
+.bootstrap-delltech .mb-5{margin-bottom:3rem !important}
+.bootstrap-delltech .ml-5{margin-left:3rem !important}
+.bootstrap-delltech .mx-5{margin-right:3rem !important;margin-left:3rem !important}
+.bootstrap-delltech .my-5{margin-top:3rem !important;margin-bottom:3rem !important}
+.bootstrap-delltech .p-0{padding:0 0 !important}
+.bootstrap-delltech .pt-0{padding-top:0 !important}
+.bootstrap-delltech .pr-0{padding-right:0 !important}
+.bootstrap-delltech .pb-0{padding-bottom:0 !important}
+.bootstrap-delltech .pl-0{padding-left:0 !important}
+.bootstrap-delltech .px-0{padding-right:0 !important;padding-left:0 !important}
+.bootstrap-delltech .py-0{padding-top:0 !important;padding-bottom:0 !important}
+.bootstrap-delltech .p-1{padding:.25rem .25rem !important}
+.bootstrap-delltech .pt-1{padding-top:.25rem !important}
+.bootstrap-delltech .pr-1{padding-right:.25rem !important}
+.bootstrap-delltech .pb-1{padding-bottom:.25rem !important}
+.bootstrap-delltech .pl-1{padding-left:.25rem !important}
+.bootstrap-delltech .px-1{padding-right:.25rem !important;padding-left:.25rem !important}
+.bootstrap-delltech .py-1{padding-top:.25rem !important;padding-bottom:.25rem !important}
+.bootstrap-delltech .p-2{padding:.5rem .5rem !important}
+.bootstrap-delltech .pt-2{padding-top:.5rem !important}
+.bootstrap-delltech .pr-2{padding-right:.5rem !important}
+.bootstrap-delltech .pb-2{padding-bottom:.5rem !important}
+.bootstrap-delltech .pl-2{padding-left:.5rem !important}
+.bootstrap-delltech .px-2{padding-right:.5rem !important;padding-left:.5rem !important}
+.bootstrap-delltech .py-2{padding-top:.5rem !important;padding-bottom:.5rem !important}
+.bootstrap-delltech .p-3{padding:1rem 1rem !important}
+.bootstrap-delltech .pt-3{padding-top:1rem !important}
+.bootstrap-delltech .pr-3{padding-right:1rem !important}
+.bootstrap-delltech .pb-3{padding-bottom:1rem !important}
+.bootstrap-delltech .pl-3{padding-left:1rem !important}
+.bootstrap-delltech .px-3{padding-right:1rem !important;padding-left:1rem !important}
+.bootstrap-delltech .py-3{padding-top:1rem !important;padding-bottom:1rem !important}
+.bootstrap-delltech .p-4{padding:1.5rem 1.5rem !important}
+.bootstrap-delltech .pt-4{padding-top:1.5rem !important}
+.bootstrap-delltech .pr-4{padding-right:1.5rem !important}
+.bootstrap-delltech .pb-4{padding-bottom:1.5rem !important}
+.bootstrap-delltech .pl-4{padding-left:1.5rem !important}
+.bootstrap-delltech .px-4{padding-right:1.5rem !important;padding-left:1.5rem !important}
+.bootstrap-delltech .py-4{padding-top:1.5rem !important;padding-bottom:1.5rem !important}
+.bootstrap-delltech .p-5{padding:3rem 3rem !important}
+.bootstrap-delltech .pt-5{padding-top:3rem !important}
+.bootstrap-delltech .pr-5{padding-right:3rem !important}
+.bootstrap-delltech .pb-5{padding-bottom:3rem !important}
+.bootstrap-delltech .pl-5{padding-left:3rem !important}
+.bootstrap-delltech .px-5{padding-right:3rem !important;padding-left:3rem !important}
+.bootstrap-delltech .py-5{padding-top:3rem !important;padding-bottom:3rem !important}
+.bootstrap-delltech .m-auto{margin:auto !important}
+.bootstrap-delltech .mt-auto{margin-top:auto !important}
+.bootstrap-delltech .mr-auto{margin-right:auto !important}
+.bootstrap-delltech .mb-auto{margin-bottom:auto !important}
+.bootstrap-delltech .ml-auto{margin-left:auto !important}
+.bootstrap-delltech .mx-auto{margin-right:auto !important;margin-left:auto !important}
+.bootstrap-delltech .my-auto{margin-top:auto !important;margin-bottom:auto !important}
+@media(min-width:640px){.bootstrap-delltech .m-sm-0{margin:0 0 !important}
+.bootstrap-delltech .mt-sm-0{margin-top:0 !important}
+.bootstrap-delltech .mr-sm-0{margin-right:0 !important}
+.bootstrap-delltech .mb-sm-0{margin-bottom:0 !important}
+.bootstrap-delltech .ml-sm-0{margin-left:0 !important}
+.bootstrap-delltech .mx-sm-0{margin-right:0 !important;margin-left:0 !important}
+.bootstrap-delltech .my-sm-0{margin-top:0 !important;margin-bottom:0 !important}
+.bootstrap-delltech .m-sm-1{margin:.25rem .25rem !important}
+.bootstrap-delltech .mt-sm-1{margin-top:.25rem !important}
+.bootstrap-delltech .mr-sm-1{margin-right:.25rem !important}
+.bootstrap-delltech .mb-sm-1{margin-bottom:.25rem !important}
+.bootstrap-delltech .ml-sm-1{margin-left:.25rem !important}
+.bootstrap-delltech .mx-sm-1{margin-right:.25rem !important;margin-left:.25rem !important}
+.bootstrap-delltech .my-sm-1{margin-top:.25rem !important;margin-bottom:.25rem !important}
+.bootstrap-delltech .m-sm-2{margin:.5rem .5rem !important}
+.bootstrap-delltech .mt-sm-2{margin-top:.5rem !important}
+.bootstrap-delltech .mr-sm-2{margin-right:.5rem !important}
+.bootstrap-delltech .mb-sm-2{margin-bottom:.5rem !important}
+.bootstrap-delltech .ml-sm-2{margin-left:.5rem !important}
+.bootstrap-delltech .mx-sm-2{margin-right:.5rem !important;margin-left:.5rem !important}
+.bootstrap-delltech .my-sm-2{margin-top:.5rem !important;margin-bottom:.5rem !important}
+.bootstrap-delltech .m-sm-3{margin:1rem 1rem !important}
+.bootstrap-delltech .mt-sm-3{margin-top:1rem !important}
+.bootstrap-delltech .mr-sm-3{margin-right:1rem !important}
+.bootstrap-delltech .mb-sm-3{margin-bottom:1rem !important}
+.bootstrap-delltech .ml-sm-3{margin-left:1rem !important}
+.bootstrap-delltech .mx-sm-3{margin-right:1rem !important;margin-left:1rem !important}
+.bootstrap-delltech .my-sm-3{margin-top:1rem !important;margin-bottom:1rem !important}
+.bootstrap-delltech .m-sm-4{margin:1.5rem 1.5rem !important}
+.bootstrap-delltech .mt-sm-4{margin-top:1.5rem !important}
+.bootstrap-delltech .mr-sm-4{margin-right:1.5rem !important}
+.bootstrap-delltech .mb-sm-4{margin-bottom:1.5rem !important}
+.bootstrap-delltech .ml-sm-4{margin-left:1.5rem !important}
+.bootstrap-delltech .mx-sm-4{margin-right:1.5rem !important;margin-left:1.5rem !important}
+.bootstrap-delltech .my-sm-4{margin-top:1.5rem !important;margin-bottom:1.5rem !important}
+.bootstrap-delltech .m-sm-5{margin:3rem 3rem !important}
+.bootstrap-delltech .mt-sm-5{margin-top:3rem !important}
+.bootstrap-delltech .mr-sm-5{margin-right:3rem !important}
+.bootstrap-delltech .mb-sm-5{margin-bottom:3rem !important}
+.bootstrap-delltech .ml-sm-5{margin-left:3rem !important}
+.bootstrap-delltech .mx-sm-5{margin-right:3rem !important;margin-left:3rem !important}
+.bootstrap-delltech .my-sm-5{margin-top:3rem !important;margin-bottom:3rem !important}
+.bootstrap-delltech .p-sm-0{padding:0 0 !important}
+.bootstrap-delltech .pt-sm-0{padding-top:0 !important}
+.bootstrap-delltech .pr-sm-0{padding-right:0 !important}
+.bootstrap-delltech .pb-sm-0{padding-bottom:0 !important}
+.bootstrap-delltech .pl-sm-0{padding-left:0 !important}
+.bootstrap-delltech .px-sm-0{padding-right:0 !important;padding-left:0 !important}
+.bootstrap-delltech .py-sm-0{padding-top:0 !important;padding-bottom:0 !important}
+.bootstrap-delltech .p-sm-1{padding:.25rem .25rem !important}
+.bootstrap-delltech .pt-sm-1{padding-top:.25rem !important}
+.bootstrap-delltech .pr-sm-1{padding-right:.25rem !important}
+.bootstrap-delltech .pb-sm-1{padding-bottom:.25rem !important}
+.bootstrap-delltech .pl-sm-1{padding-left:.25rem !important}
+.bootstrap-delltech .px-sm-1{padding-right:.25rem !important;padding-left:.25rem !important}
+.bootstrap-delltech .py-sm-1{padding-top:.25rem !important;padding-bottom:.25rem !important}
+.bootstrap-delltech .p-sm-2{padding:.5rem .5rem !important}
+.bootstrap-delltech .pt-sm-2{padding-top:.5rem !important}
+.bootstrap-delltech .pr-sm-2{padding-right:.5rem !important}
+.bootstrap-delltech .pb-sm-2{padding-bottom:.5rem !important}
+.bootstrap-delltech .pl-sm-2{padding-left:.5rem !important}
+.bootstrap-delltech .px-sm-2{padding-right:.5rem !important;padding-left:.5rem !important}
+.bootstrap-delltech .py-sm-2{padding-top:.5rem !important;padding-bottom:.5rem !important}
+.bootstrap-delltech .p-sm-3{padding:1rem 1rem !important}
+.bootstrap-delltech .pt-sm-3{padding-top:1rem !important}
+.bootstrap-delltech .pr-sm-3{padding-right:1rem !important}
+.bootstrap-delltech .pb-sm-3{padding-bottom:1rem !important}
+.bootstrap-delltech .pl-sm-3{padding-left:1rem !important}
+.bootstrap-delltech .px-sm-3{padding-right:1rem !important;padding-left:1rem !important}
+.bootstrap-delltech .py-sm-3{padding-top:1rem !important;padding-bottom:1rem !important}
+.bootstrap-delltech .p-sm-4{padding:1.5rem 1.5rem !important}
+.bootstrap-delltech .pt-sm-4{padding-top:1.5rem !important}
+.bootstrap-delltech .pr-sm-4{padding-right:1.5rem !important}
+.bootstrap-delltech .pb-sm-4{padding-bottom:1.5rem !important}
+.bootstrap-delltech .pl-sm-4{padding-left:1.5rem !important}
+.bootstrap-delltech .px-sm-4{padding-right:1.5rem !important;padding-left:1.5rem !important}
+.bootstrap-delltech .py-sm-4{padding-top:1.5rem !important;padding-bottom:1.5rem !important}
+.bootstrap-delltech .p-sm-5{padding:3rem 3rem !important}
+.bootstrap-delltech .pt-sm-5{padding-top:3rem !important}
+.bootstrap-delltech .pr-sm-5{padding-right:3rem !important}
+.bootstrap-delltech .pb-sm-5{padding-bottom:3rem !important}
+.bootstrap-delltech .pl-sm-5{padding-left:3rem !important}
+.bootstrap-delltech .px-sm-5{padding-right:3rem !important;padding-left:3rem !important}
+.bootstrap-delltech .py-sm-5{padding-top:3rem !important;padding-bottom:3rem !important}
+.bootstrap-delltech .m-sm-auto{margin:auto !important}
+.bootstrap-delltech .mt-sm-auto{margin-top:auto !important}
+.bootstrap-delltech .mr-sm-auto{margin-right:auto !important}
+.bootstrap-delltech .mb-sm-auto{margin-bottom:auto !important}
+.bootstrap-delltech .ml-sm-auto{margin-left:auto !important}
+.bootstrap-delltech .mx-sm-auto{margin-right:auto !important;margin-left:auto !important}
+.bootstrap-delltech .my-sm-auto{margin-top:auto !important;margin-bottom:auto !important}
+}
+@media(min-width:768px){.bootstrap-delltech .m-md-0{margin:0 0 !important}
+.bootstrap-delltech .mt-md-0{margin-top:0 !important}
+.bootstrap-delltech .mr-md-0{margin-right:0 !important}
+.bootstrap-delltech .mb-md-0{margin-bottom:0 !important}
+.bootstrap-delltech .ml-md-0{margin-left:0 !important}
+.bootstrap-delltech .mx-md-0{margin-right:0 !important;margin-left:0 !important}
+.bootstrap-delltech .my-md-0{margin-top:0 !important;margin-bottom:0 !important}
+.bootstrap-delltech .m-md-1{margin:.25rem .25rem !important}
+.bootstrap-delltech .mt-md-1{margin-top:.25rem !important}
+.bootstrap-delltech .mr-md-1{margin-right:.25rem !important}
+.bootstrap-delltech .mb-md-1{margin-bottom:.25rem !important}
+.bootstrap-delltech .ml-md-1{margin-left:.25rem !important}
+.bootstrap-delltech .mx-md-1{margin-right:.25rem !important;margin-left:.25rem !important}
+.bootstrap-delltech .my-md-1{margin-top:.25rem !important;margin-bottom:.25rem !important}
+.bootstrap-delltech .m-md-2{margin:.5rem .5rem !important}
+.bootstrap-delltech .mt-md-2{margin-top:.5rem !important}
+.bootstrap-delltech .mr-md-2{margin-right:.5rem !important}
+.bootstrap-delltech .mb-md-2{margin-bottom:.5rem !important}
+.bootstrap-delltech .ml-md-2{margin-left:.5rem !important}
+.bootstrap-delltech .mx-md-2{margin-right:.5rem !important;margin-left:.5rem !important}
+.bootstrap-delltech .my-md-2{margin-top:.5rem !important;margin-bottom:.5rem !important}
+.bootstrap-delltech .m-md-3{margin:1rem 1rem !important}
+.bootstrap-delltech .mt-md-3{margin-top:1rem !important}
+.bootstrap-delltech .mr-md-3{margin-right:1rem !important}
+.bootstrap-delltech .mb-md-3{margin-bottom:1rem !important}
+.bootstrap-delltech .ml-md-3{margin-left:1rem !important}
+.bootstrap-delltech .mx-md-3{margin-right:1rem !important;margin-left:1rem !important}
+.bootstrap-delltech .my-md-3{margin-top:1rem !important;margin-bottom:1rem !important}
+.bootstrap-delltech .m-md-4{margin:1.5rem 1.5rem !important}
+.bootstrap-delltech .mt-md-4{margin-top:1.5rem !important}
+.bootstrap-delltech .mr-md-4{margin-right:1.5rem !important}
+.bootstrap-delltech .mb-md-4{margin-bottom:1.5rem !important}
+.bootstrap-delltech .ml-md-4{margin-left:1.5rem !important}
+.bootstrap-delltech .mx-md-4{margin-right:1.5rem !important;margin-left:1.5rem !important}
+.bootstrap-delltech .my-md-4{margin-top:1.5rem !important;margin-bottom:1.5rem !important}
+.bootstrap-delltech .m-md-5{margin:3rem 3rem !important}
+.bootstrap-delltech .mt-md-5{margin-top:3rem !important}
+.bootstrap-delltech .mr-md-5{margin-right:3rem !important}
+.bootstrap-delltech .mb-md-5{margin-bottom:3rem !important}
+.bootstrap-delltech .ml-md-5{margin-left:3rem !important}
+.bootstrap-delltech .mx-md-5{margin-right:3rem !important;margin-left:3rem !important}
+.bootstrap-delltech .my-md-5{margin-top:3rem !important;margin-bottom:3rem !important}
+.bootstrap-delltech .p-md-0{padding:0 0 !important}
+.bootstrap-delltech .pt-md-0{padding-top:0 !important}
+.bootstrap-delltech .pr-md-0{padding-right:0 !important}
+.bootstrap-delltech .pb-md-0{padding-bottom:0 !important}
+.bootstrap-delltech .pl-md-0{padding-left:0 !important}
+.bootstrap-delltech .px-md-0{padding-right:0 !important;padding-left:0 !important}
+.bootstrap-delltech .py-md-0{padding-top:0 !important;padding-bottom:0 !important}
+.bootstrap-delltech .p-md-1{padding:.25rem .25rem !important}
+.bootstrap-delltech .pt-md-1{padding-top:.25rem !important}
+.bootstrap-delltech .pr-md-1{padding-right:.25rem !important}
+.bootstrap-delltech .pb-md-1{padding-bottom:.25rem !important}
+.bootstrap-delltech .pl-md-1{padding-left:.25rem !important}
+.bootstrap-delltech .px-md-1{padding-right:.25rem !important;padding-left:.25rem !important}
+.bootstrap-delltech .py-md-1{padding-top:.25rem !important;padding-bottom:.25rem !important}
+.bootstrap-delltech .p-md-2{padding:.5rem .5rem !important}
+.bootstrap-delltech .pt-md-2{padding-top:.5rem !important}
+.bootstrap-delltech .pr-md-2{padding-right:.5rem !important}
+.bootstrap-delltech .pb-md-2{padding-bottom:.5rem !important}
+.bootstrap-delltech .pl-md-2{padding-left:.5rem !important}
+.bootstrap-delltech .px-md-2{padding-right:.5rem !important;padding-left:.5rem !important}
+.bootstrap-delltech .py-md-2{padding-top:.5rem !important;padding-bottom:.5rem !important}
+.bootstrap-delltech .p-md-3{padding:1rem 1rem !important}
+.bootstrap-delltech .pt-md-3{padding-top:1rem !important}
+.bootstrap-delltech .pr-md-3{padding-right:1rem !important}
+.bootstrap-delltech .pb-md-3{padding-bottom:1rem !important}
+.bootstrap-delltech .pl-md-3{padding-left:1rem !important}
+.bootstrap-delltech .px-md-3{padding-right:1rem !important;padding-left:1rem !important}
+.bootstrap-delltech .py-md-3{padding-top:1rem !important;padding-bottom:1rem !important}
+.bootstrap-delltech .p-md-4{padding:1.5rem 1.5rem !important}
+.bootstrap-delltech .pt-md-4{padding-top:1.5rem !important}
+.bootstrap-delltech .pr-md-4{padding-right:1.5rem !important}
+.bootstrap-delltech .pb-md-4{padding-bottom:1.5rem !important}
+.bootstrap-delltech .pl-md-4{padding-left:1.5rem !important}
+.bootstrap-delltech .px-md-4{padding-right:1.5rem !important;padding-left:1.5rem !important}
+.bootstrap-delltech .py-md-4{padding-top:1.5rem !important;padding-bottom:1.5rem !important}
+.bootstrap-delltech .p-md-5{padding:3rem 3rem !important}
+.bootstrap-delltech .pt-md-5{padding-top:3rem !important}
+.bootstrap-delltech .pr-md-5{padding-right:3rem !important}
+.bootstrap-delltech .pb-md-5{padding-bottom:3rem !important}
+.bootstrap-delltech .pl-md-5{padding-left:3rem !important}
+.bootstrap-delltech .px-md-5{padding-right:3rem !important;padding-left:3rem !important}
+.bootstrap-delltech .py-md-5{padding-top:3rem !important;padding-bottom:3rem !important}
+.bootstrap-delltech .m-md-auto{margin:auto !important}
+.bootstrap-delltech .mt-md-auto{margin-top:auto !important}
+.bootstrap-delltech .mr-md-auto{margin-right:auto !important}
+.bootstrap-delltech .mb-md-auto{margin-bottom:auto !important}
+.bootstrap-delltech .ml-md-auto{margin-left:auto !important}
+.bootstrap-delltech .mx-md-auto{margin-right:auto !important;margin-left:auto !important}
+.bootstrap-delltech .my-md-auto{margin-top:auto !important;margin-bottom:auto !important}
+}
+@media(min-width:980px){.bootstrap-delltech .m-lg-0{margin:0 0 !important}
+.bootstrap-delltech .mt-lg-0{margin-top:0 !important}
+.bootstrap-delltech .mr-lg-0{margin-right:0 !important}
+.bootstrap-delltech .mb-lg-0{margin-bottom:0 !important}
+.bootstrap-delltech .ml-lg-0{margin-left:0 !important}
+.bootstrap-delltech .mx-lg-0{margin-right:0 !important;margin-left:0 !important}
+.bootstrap-delltech .my-lg-0{margin-top:0 !important;margin-bottom:0 !important}
+.bootstrap-delltech .m-lg-1{margin:.25rem .25rem !important}
+.bootstrap-delltech .mt-lg-1{margin-top:.25rem !important}
+.bootstrap-delltech .mr-lg-1{margin-right:.25rem !important}
+.bootstrap-delltech .mb-lg-1{margin-bottom:.25rem !important}
+.bootstrap-delltech .ml-lg-1{margin-left:.25rem !important}
+.bootstrap-delltech .mx-lg-1{margin-right:.25rem !important;margin-left:.25rem !important}
+.bootstrap-delltech .my-lg-1{margin-top:.25rem !important;margin-bottom:.25rem !important}
+.bootstrap-delltech .m-lg-2{margin:.5rem .5rem !important}
+.bootstrap-delltech .mt-lg-2{margin-top:.5rem !important}
+.bootstrap-delltech .mr-lg-2{margin-right:.5rem !important}
+.bootstrap-delltech .mb-lg-2{margin-bottom:.5rem !important}
+.bootstrap-delltech .ml-lg-2{margin-left:.5rem !important}
+.bootstrap-delltech .mx-lg-2{margin-right:.5rem !important;margin-left:.5rem !important}
+.bootstrap-delltech .my-lg-2{margin-top:.5rem !important;margin-bottom:.5rem !important}
+.bootstrap-delltech .m-lg-3{margin:1rem 1rem !important}
+.bootstrap-delltech .mt-lg-3{margin-top:1rem !important}
+.bootstrap-delltech .mr-lg-3{margin-right:1rem !important}
+.bootstrap-delltech .mb-lg-3{margin-bottom:1rem !important}
+.bootstrap-delltech .ml-lg-3{margin-left:1rem !important}
+.bootstrap-delltech .mx-lg-3{margin-right:1rem !important;margin-left:1rem !important}
+.bootstrap-delltech .my-lg-3{margin-top:1rem !important;margin-bottom:1rem !important}
+.bootstrap-delltech .m-lg-4{margin:1.5rem 1.5rem !important}
+.bootstrap-delltech .mt-lg-4{margin-top:1.5rem !important}
+.bootstrap-delltech .mr-lg-4{margin-right:1.5rem !important}
+.bootstrap-delltech .mb-lg-4{margin-bottom:1.5rem !important}
+.bootstrap-delltech .ml-lg-4{margin-left:1.5rem !important}
+.bootstrap-delltech .mx-lg-4{margin-right:1.5rem !important;margin-left:1.5rem !important}
+.bootstrap-delltech .my-lg-4{margin-top:1.5rem !important;margin-bottom:1.5rem !important}
+.bootstrap-delltech .m-lg-5{margin:3rem 3rem !important}
+.bootstrap-delltech .mt-lg-5{margin-top:3rem !important}
+.bootstrap-delltech .mr-lg-5{margin-right:3rem !important}
+.bootstrap-delltech .mb-lg-5{margin-bottom:3rem !important}
+.bootstrap-delltech .ml-lg-5{margin-left:3rem !important}
+.bootstrap-delltech .mx-lg-5{margin-right:3rem !important;margin-left:3rem !important}
+.bootstrap-delltech .my-lg-5{margin-top:3rem !important;margin-bottom:3rem !important}
+.bootstrap-delltech .p-lg-0{padding:0 0 !important}
+.bootstrap-delltech .pt-lg-0{padding-top:0 !important}
+.bootstrap-delltech .pr-lg-0{padding-right:0 !important}
+.bootstrap-delltech .pb-lg-0{padding-bottom:0 !important}
+.bootstrap-delltech .pl-lg-0{padding-left:0 !important}
+.bootstrap-delltech .px-lg-0{padding-right:0 !important;padding-left:0 !important}
+.bootstrap-delltech .py-lg-0{padding-top:0 !important;padding-bottom:0 !important}
+.bootstrap-delltech .p-lg-1{padding:.25rem .25rem !important}
+.bootstrap-delltech .pt-lg-1{padding-top:.25rem !important}
+.bootstrap-delltech .pr-lg-1{padding-right:.25rem !important}
+.bootstrap-delltech .pb-lg-1{padding-bottom:.25rem !important}
+.bootstrap-delltech .pl-lg-1{padding-left:.25rem !important}
+.bootstrap-delltech .px-lg-1{padding-right:.25rem !important;padding-left:.25rem !important}
+.bootstrap-delltech .py-lg-1{padding-top:.25rem !important;padding-bottom:.25rem !important}
+.bootstrap-delltech .p-lg-2{padding:.5rem .5rem !important}
+.bootstrap-delltech .pt-lg-2{padding-top:.5rem !important}
+.bootstrap-delltech .pr-lg-2{padding-right:.5rem !important}
+.bootstrap-delltech .pb-lg-2{padding-bottom:.5rem !important}
+.bootstrap-delltech .pl-lg-2{padding-left:.5rem !important}
+.bootstrap-delltech .px-lg-2{padding-right:.5rem !important;padding-left:.5rem !important}
+.bootstrap-delltech .py-lg-2{padding-top:.5rem !important;padding-bottom:.5rem !important}
+.bootstrap-delltech .p-lg-3{padding:1rem 1rem !important}
+.bootstrap-delltech .pt-lg-3{padding-top:1rem !important}
+.bootstrap-delltech .pr-lg-3{padding-right:1rem !important}
+.bootstrap-delltech .pb-lg-3{padding-bottom:1rem !important}
+.bootstrap-delltech .pl-lg-3{padding-left:1rem !important}
+.bootstrap-delltech .px-lg-3{padding-right:1rem !important;padding-left:1rem !important}
+.bootstrap-delltech .py-lg-3{padding-top:1rem !important;padding-bottom:1rem !important}
+.bootstrap-delltech .p-lg-4{padding:1.5rem 1.5rem !important}
+.bootstrap-delltech .pt-lg-4{padding-top:1.5rem !important}
+.bootstrap-delltech .pr-lg-4{padding-right:1.5rem !important}
+.bootstrap-delltech .pb-lg-4{padding-bottom:1.5rem !important}
+.bootstrap-delltech .pl-lg-4{padding-left:1.5rem !important}
+.bootstrap-delltech .px-lg-4{padding-right:1.5rem !important;padding-left:1.5rem !important}
+.bootstrap-delltech .py-lg-4{padding-top:1.5rem !important;padding-bottom:1.5rem !important}
+.bootstrap-delltech .p-lg-5{padding:3rem 3rem !important}
+.bootstrap-delltech .pt-lg-5{padding-top:3rem !important}
+.bootstrap-delltech .pr-lg-5{padding-right:3rem !important}
+.bootstrap-delltech .pb-lg-5{padding-bottom:3rem !important}
+.bootstrap-delltech .pl-lg-5{padding-left:3rem !important}
+.bootstrap-delltech .px-lg-5{padding-right:3rem !important;padding-left:3rem !important}
+.bootstrap-delltech .py-lg-5{padding-top:3rem !important;padding-bottom:3rem !important}
+.bootstrap-delltech .m-lg-auto{margin:auto !important}
+.bootstrap-delltech .mt-lg-auto{margin-top:auto !important}
+.bootstrap-delltech .mr-lg-auto{margin-right:auto !important}
+.bootstrap-delltech .mb-lg-auto{margin-bottom:auto !important}
+.bootstrap-delltech .ml-lg-auto{margin-left:auto !important}
+.bootstrap-delltech .mx-lg-auto{margin-right:auto !important;margin-left:auto !important}
+.bootstrap-delltech .my-lg-auto{margin-top:auto !important;margin-bottom:auto !important}
+}
+@media(min-width:1280px){.bootstrap-delltech .m-xl-0{margin:0 0 !important}
+.bootstrap-delltech .mt-xl-0{margin-top:0 !important}
+.bootstrap-delltech .mr-xl-0{margin-right:0 !important}
+.bootstrap-delltech .mb-xl-0{margin-bottom:0 !important}
+.bootstrap-delltech .ml-xl-0{margin-left:0 !important}
+.bootstrap-delltech .mx-xl-0{margin-right:0 !important;margin-left:0 !important}
+.bootstrap-delltech .my-xl-0{margin-top:0 !important;margin-bottom:0 !important}
+.bootstrap-delltech .m-xl-1{margin:.25rem .25rem !important}
+.bootstrap-delltech .mt-xl-1{margin-top:.25rem !important}
+.bootstrap-delltech .mr-xl-1{margin-right:.25rem !important}
+.bootstrap-delltech .mb-xl-1{margin-bottom:.25rem !important}
+.bootstrap-delltech .ml-xl-1{margin-left:.25rem !important}
+.bootstrap-delltech .mx-xl-1{margin-right:.25rem !important;margin-left:.25rem !important}
+.bootstrap-delltech .my-xl-1{margin-top:.25rem !important;margin-bottom:.25rem !important}
+.bootstrap-delltech .m-xl-2{margin:.5rem .5rem !important}
+.bootstrap-delltech .mt-xl-2{margin-top:.5rem !important}
+.bootstrap-delltech .mr-xl-2{margin-right:.5rem !important}
+.bootstrap-delltech .mb-xl-2{margin-bottom:.5rem !important}
+.bootstrap-delltech .ml-xl-2{margin-left:.5rem !important}
+.bootstrap-delltech .mx-xl-2{margin-right:.5rem !important;margin-left:.5rem !important}
+.bootstrap-delltech .my-xl-2{margin-top:.5rem !important;margin-bottom:.5rem !important}
+.bootstrap-delltech .m-xl-3{margin:1rem 1rem !important}
+.bootstrap-delltech .mt-xl-3{margin-top:1rem !important}
+.bootstrap-delltech .mr-xl-3{margin-right:1rem !important}
+.bootstrap-delltech .mb-xl-3{margin-bottom:1rem !important}
+.bootstrap-delltech .ml-xl-3{margin-left:1rem !important}
+.bootstrap-delltech .mx-xl-3{margin-right:1rem !important;margin-left:1rem !important}
+.bootstrap-delltech .my-xl-3{margin-top:1rem !important;margin-bottom:1rem !important}
+.bootstrap-delltech .m-xl-4{margin:1.5rem 1.5rem !important}
+.bootstrap-delltech .mt-xl-4{margin-top:1.5rem !important}
+.bootstrap-delltech .mr-xl-4{margin-right:1.5rem !important}
+.bootstrap-delltech .mb-xl-4{margin-bottom:1.5rem !important}
+.bootstrap-delltech .ml-xl-4{margin-left:1.5rem !important}
+.bootstrap-delltech .mx-xl-4{margin-right:1.5rem !important;margin-left:1.5rem !important}
+.bootstrap-delltech .my-xl-4{margin-top:1.5rem !important;margin-bottom:1.5rem !important}
+.bootstrap-delltech .m-xl-5{margin:3rem 3rem !important}
+.bootstrap-delltech .mt-xl-5{margin-top:3rem !important}
+.bootstrap-delltech .mr-xl-5{margin-right:3rem !important}
+.bootstrap-delltech .mb-xl-5{margin-bottom:3rem !important}
+.bootstrap-delltech .ml-xl-5{margin-left:3rem !important}
+.bootstrap-delltech .mx-xl-5{margin-right:3rem !important;margin-left:3rem !important}
+.bootstrap-delltech .my-xl-5{margin-top:3rem !important;margin-bottom:3rem !important}
+.bootstrap-delltech .p-xl-0{padding:0 0 !important}
+.bootstrap-delltech .pt-xl-0{padding-top:0 !important}
+.bootstrap-delltech .pr-xl-0{padding-right:0 !important}
+.bootstrap-delltech .pb-xl-0{padding-bottom:0 !important}
+.bootstrap-delltech .pl-xl-0{padding-left:0 !important}
+.bootstrap-delltech .px-xl-0{padding-right:0 !important;padding-left:0 !important}
+.bootstrap-delltech .py-xl-0{padding-top:0 !important;padding-bottom:0 !important}
+.bootstrap-delltech .p-xl-1{padding:.25rem .25rem !important}
+.bootstrap-delltech .pt-xl-1{padding-top:.25rem !important}
+.bootstrap-delltech .pr-xl-1{padding-right:.25rem !important}
+.bootstrap-delltech .pb-xl-1{padding-bottom:.25rem !important}
+.bootstrap-delltech .pl-xl-1{padding-left:.25rem !important}
+.bootstrap-delltech .px-xl-1{padding-right:.25rem !important;padding-left:.25rem !important}
+.bootstrap-delltech .py-xl-1{padding-top:.25rem !important;padding-bottom:.25rem !important}
+.bootstrap-delltech .p-xl-2{padding:.5rem .5rem !important}
+.bootstrap-delltech .pt-xl-2{padding-top:.5rem !important}
+.bootstrap-delltech .pr-xl-2{padding-right:.5rem !important}
+.bootstrap-delltech .pb-xl-2{padding-bottom:.5rem !important}
+.bootstrap-delltech .pl-xl-2{padding-left:.5rem !important}
+.bootstrap-delltech .px-xl-2{padding-right:.5rem !important;padding-left:.5rem !important}
+.bootstrap-delltech .py-xl-2{padding-top:.5rem !important;padding-bottom:.5rem !important}
+.bootstrap-delltech .p-xl-3{padding:1rem 1rem !important}
+.bootstrap-delltech .pt-xl-3{padding-top:1rem !important}
+.bootstrap-delltech .pr-xl-3{padding-right:1rem !important}
+.bootstrap-delltech .pb-xl-3{padding-bottom:1rem !important}
+.bootstrap-delltech .pl-xl-3{padding-left:1rem !important}
+.bootstrap-delltech .px-xl-3{padding-right:1rem !important;padding-left:1rem !important}
+.bootstrap-delltech .py-xl-3{padding-top:1rem !important;padding-bottom:1rem !important}
+.bootstrap-delltech .p-xl-4{padding:1.5rem 1.5rem !important}
+.bootstrap-delltech .pt-xl-4{padding-top:1.5rem !important}
+.bootstrap-delltech .pr-xl-4{padding-right:1.5rem !important}
+.bootstrap-delltech .pb-xl-4{padding-bottom:1.5rem !important}
+.bootstrap-delltech .pl-xl-4{padding-left:1.5rem !important}
+.bootstrap-delltech .px-xl-4{padding-right:1.5rem !important;padding-left:1.5rem !important}
+.bootstrap-delltech .py-xl-4{padding-top:1.5rem !important;padding-bottom:1.5rem !important}
+.bootstrap-delltech .p-xl-5{padding:3rem 3rem !important}
+.bootstrap-delltech .pt-xl-5{padding-top:3rem !important}
+.bootstrap-delltech .pr-xl-5{padding-right:3rem !important}
+.bootstrap-delltech .pb-xl-5{padding-bottom:3rem !important}
+.bootstrap-delltech .pl-xl-5{padding-left:3rem !important}
+.bootstrap-delltech .px-xl-5{padding-right:3rem !important;padding-left:3rem !important}
+.bootstrap-delltech .py-xl-5{padding-top:3rem !important;padding-bottom:3rem !important}
+.bootstrap-delltech .m-xl-auto{margin:auto !important}
+.bootstrap-delltech .mt-xl-auto{margin-top:auto !important}
+.bootstrap-delltech .mr-xl-auto{margin-right:auto !important}
+.bootstrap-delltech .mb-xl-auto{margin-bottom:auto !important}
+.bootstrap-delltech .ml-xl-auto{margin-left:auto !important}
+.bootstrap-delltech .mx-xl-auto{margin-right:auto !important;margin-left:auto !important}
+.bootstrap-delltech .my-xl-auto{margin-top:auto !important;margin-bottom:auto !important}
+}
+@media(min-width:1600px){.bootstrap-delltech .m-xxl-0{margin:0 0 !important}
+.bootstrap-delltech .mt-xxl-0{margin-top:0 !important}
+.bootstrap-delltech .mr-xxl-0{margin-right:0 !important}
+.bootstrap-delltech .mb-xxl-0{margin-bottom:0 !important}
+.bootstrap-delltech .ml-xxl-0{margin-left:0 !important}
+.bootstrap-delltech .mx-xxl-0{margin-right:0 !important;margin-left:0 !important}
+.bootstrap-delltech .my-xxl-0{margin-top:0 !important;margin-bottom:0 !important}
+.bootstrap-delltech .m-xxl-1{margin:.25rem .25rem !important}
+.bootstrap-delltech .mt-xxl-1{margin-top:.25rem !important}
+.bootstrap-delltech .mr-xxl-1{margin-right:.25rem !important}
+.bootstrap-delltech .mb-xxl-1{margin-bottom:.25rem !important}
+.bootstrap-delltech .ml-xxl-1{margin-left:.25rem !important}
+.bootstrap-delltech .mx-xxl-1{margin-right:.25rem !important;margin-left:.25rem !important}
+.bootstrap-delltech .my-xxl-1{margin-top:.25rem !important;margin-bottom:.25rem !important}
+.bootstrap-delltech .m-xxl-2{margin:.5rem .5rem !important}
+.bootstrap-delltech .mt-xxl-2{margin-top:.5rem !important}
+.bootstrap-delltech .mr-xxl-2{margin-right:.5rem !important}
+.bootstrap-delltech .mb-xxl-2{margin-bottom:.5rem !important}
+.bootstrap-delltech .ml-xxl-2{margin-left:.5rem !important}
+.bootstrap-delltech .mx-xxl-2{margin-right:.5rem !important;margin-left:.5rem !important}
+.bootstrap-delltech .my-xxl-2{margin-top:.5rem !important;margin-bottom:.5rem !important}
+.bootstrap-delltech .m-xxl-3{margin:1rem 1rem !important}
+.bootstrap-delltech .mt-xxl-3{margin-top:1rem !important}
+.bootstrap-delltech .mr-xxl-3{margin-right:1rem !important}
+.bootstrap-delltech .mb-xxl-3{margin-bottom:1rem !important}
+.bootstrap-delltech .ml-xxl-3{margin-left:1rem !important}
+.bootstrap-delltech .mx-xxl-3{margin-right:1rem !important;margin-left:1rem !important}
+.bootstrap-delltech .my-xxl-3{margin-top:1rem !important;margin-bottom:1rem !important}
+.bootstrap-delltech .m-xxl-4{margin:1.5rem 1.5rem !important}
+.bootstrap-delltech .mt-xxl-4{margin-top:1.5rem !important}
+.bootstrap-delltech .mr-xxl-4{margin-right:1.5rem !important}
+.bootstrap-delltech .mb-xxl-4{margin-bottom:1.5rem !important}
+.bootstrap-delltech .ml-xxl-4{margin-left:1.5rem !important}
+.bootstrap-delltech .mx-xxl-4{margin-right:1.5rem !important;margin-left:1.5rem !important}
+.bootstrap-delltech .my-xxl-4{margin-top:1.5rem !important;margin-bottom:1.5rem !important}
+.bootstrap-delltech .m-xxl-5{margin:3rem 3rem !important}
+.bootstrap-delltech .mt-xxl-5{margin-top:3rem !important}
+.bootstrap-delltech .mr-xxl-5{margin-right:3rem !important}
+.bootstrap-delltech .mb-xxl-5{margin-bottom:3rem !important}
+.bootstrap-delltech .ml-xxl-5{margin-left:3rem !important}
+.bootstrap-delltech .mx-xxl-5{margin-right:3rem !important;margin-left:3rem !important}
+.bootstrap-delltech .my-xxl-5{margin-top:3rem !important;margin-bottom:3rem !important}
+.bootstrap-delltech .p-xxl-0{padding:0 0 !important}
+.bootstrap-delltech .pt-xxl-0{padding-top:0 !important}
+.bootstrap-delltech .pr-xxl-0{padding-right:0 !important}
+.bootstrap-delltech .pb-xxl-0{padding-bottom:0 !important}
+.bootstrap-delltech .pl-xxl-0{padding-left:0 !important}
+.bootstrap-delltech .px-xxl-0{padding-right:0 !important;padding-left:0 !important}
+.bootstrap-delltech .py-xxl-0{padding-top:0 !important;padding-bottom:0 !important}
+.bootstrap-delltech .p-xxl-1{padding:.25rem .25rem !important}
+.bootstrap-delltech .pt-xxl-1{padding-top:.25rem !important}
+.bootstrap-delltech .pr-xxl-1{padding-right:.25rem !important}
+.bootstrap-delltech .pb-xxl-1{padding-bottom:.25rem !important}
+.bootstrap-delltech .pl-xxl-1{padding-left:.25rem !important}
+.bootstrap-delltech .px-xxl-1{padding-right:.25rem !important;padding-left:.25rem !important}
+.bootstrap-delltech .py-xxl-1{padding-top:.25rem !important;padding-bottom:.25rem !important}
+.bootstrap-delltech .p-xxl-2{padding:.5rem .5rem !important}
+.bootstrap-delltech .pt-xxl-2{padding-top:.5rem !important}
+.bootstrap-delltech .pr-xxl-2{padding-right:.5rem !important}
+.bootstrap-delltech .pb-xxl-2{padding-bottom:.5rem !important}
+.bootstrap-delltech .pl-xxl-2{padding-left:.5rem !important}
+.bootstrap-delltech .px-xxl-2{padding-right:.5rem !important;padding-left:.5rem !important}
+.bootstrap-delltech .py-xxl-2{padding-top:.5rem !important;padding-bottom:.5rem !important}
+.bootstrap-delltech .p-xxl-3{padding:1rem 1rem !important}
+.bootstrap-delltech .pt-xxl-3{padding-top:1rem !important}
+.bootstrap-delltech .pr-xxl-3{padding-right:1rem !important}
+.bootstrap-delltech .pb-xxl-3{padding-bottom:1rem !important}
+.bootstrap-delltech .pl-xxl-3{padding-left:1rem !important}
+.bootstrap-delltech .px-xxl-3{padding-right:1rem !important;padding-left:1rem !important}
+.bootstrap-delltech .py-xxl-3{padding-top:1rem !important;padding-bottom:1rem !important}
+.bootstrap-delltech .p-xxl-4{padding:1.5rem 1.5rem !important}
+.bootstrap-delltech .pt-xxl-4{padding-top:1.5rem !important}
+.bootstrap-delltech .pr-xxl-4{padding-right:1.5rem !important}
+.bootstrap-delltech .pb-xxl-4{padding-bottom:1.5rem !important}
+.bootstrap-delltech .pl-xxl-4{padding-left:1.5rem !important}
+.bootstrap-delltech .px-xxl-4{padding-right:1.5rem !important;padding-left:1.5rem !important}
+.bootstrap-delltech .py-xxl-4{padding-top:1.5rem !important;padding-bottom:1.5rem !important}
+.bootstrap-delltech .p-xxl-5{padding:3rem 3rem !important}
+.bootstrap-delltech .pt-xxl-5{padding-top:3rem !important}
+.bootstrap-delltech .pr-xxl-5{padding-right:3rem !important}
+.bootstrap-delltech .pb-xxl-5{padding-bottom:3rem !important}
+.bootstrap-delltech .pl-xxl-5{padding-left:3rem !important}
+.bootstrap-delltech .px-xxl-5{padding-right:3rem !important;padding-left:3rem !important}
+.bootstrap-delltech .py-xxl-5{padding-top:3rem !important;padding-bottom:3rem !important}
+.bootstrap-delltech .m-xxl-auto{margin:auto !important}
+.bootstrap-delltech .mt-xxl-auto{margin-top:auto !important}
+.bootstrap-delltech .mr-xxl-auto{margin-right:auto !important}
+.bootstrap-delltech .mb-xxl-auto{margin-bottom:auto !important}
+.bootstrap-delltech .ml-xxl-auto{margin-left:auto !important}
+.bootstrap-delltech .mx-xxl-auto{margin-right:auto !important;margin-left:auto !important}
+.bootstrap-delltech .my-xxl-auto{margin-top:auto !important;margin-bottom:auto !important}
+}
+.bootstrap-delltech .text-justify{text-align:justify !important}
+.bootstrap-delltech .text-nowrap{white-space:nowrap !important}
+.bootstrap-delltech .text-truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bootstrap-delltech .text-left{text-align:left !important}
+.bootstrap-delltech .text-right{text-align:right !important}
+.bootstrap-delltech .text-center{text-align:center !important}
+@media(min-width:640px){.bootstrap-delltech .text-sm-left{text-align:left !important}
+.bootstrap-delltech .text-sm-right{text-align:right !important}
+.bootstrap-delltech .text-sm-center{text-align:center !important}
+}
+@media(min-width:768px){.bootstrap-delltech .text-md-left{text-align:left !important}
+.bootstrap-delltech .text-md-right{text-align:right !important}
+.bootstrap-delltech .text-md-center{text-align:center !important}
+}
+@media(min-width:980px){.bootstrap-delltech .text-lg-left{text-align:left !important}
+.bootstrap-delltech .text-lg-right{text-align:right !important}
+.bootstrap-delltech .text-lg-center{text-align:center !important}
+}
+@media(min-width:1280px){.bootstrap-delltech .text-xl-left{text-align:left !important}
+.bootstrap-delltech .text-xl-right{text-align:right !important}
+.bootstrap-delltech .text-xl-center{text-align:center !important}
+}
+@media(min-width:1600px){.bootstrap-delltech .text-xxl-left{text-align:left !important}
+.bootstrap-delltech .text-xxl-right{text-align:right !important}
+.bootstrap-delltech .text-xxl-center{text-align:center !important}
+}
+.bootstrap-delltech .text-lowercase{text-transform:lowercase !important}
+.bootstrap-delltech .text-uppercase{text-transform:uppercase !important}
+.bootstrap-delltech .text-capitalize{text-transform:capitalize !important}
+.bootstrap-delltech .font-weight-normal{font-weight:normal}
+.bootstrap-delltech .font-weight-bold{font-weight:bold}
+.bootstrap-delltech .font-italic{font-style:italic}
+.bootstrap-delltech .text-white{color:#fff !important}
+.bootstrap-delltech .text-muted{color:#636c72 !important}
+.bootstrap-delltech a.text-muted:focus,.bootstrap-delltech a.text-muted:hover{color:#4b5257 !important}
+.bootstrap-delltech .text-primary{color:#0275d8 !important}
+.bootstrap-delltech a.text-primary:focus,.bootstrap-delltech a.text-primary:hover{color:#025aa5 !important}
+.bootstrap-delltech .text-success{color:#5cb85c !important}
+.bootstrap-delltech a.text-success:focus,.bootstrap-delltech a.text-success:hover{color:#449d44 !important}
+.bootstrap-delltech .text-info{color:#5bc0de !important}
+.bootstrap-delltech a.text-info:focus,.bootstrap-delltech a.text-info:hover{color:#31b0d5 !important}
+.bootstrap-delltech .text-warning{color:#f0ad4e !important}
+.bootstrap-delltech a.text-warning:focus,.bootstrap-delltech a.text-warning:hover{color:#ec971f !important}
+.bootstrap-delltech .text-danger{color:#d9534f !important}
+.bootstrap-delltech a.text-danger:focus,.bootstrap-delltech a.text-danger:hover{color:#c9302c !important}
+.bootstrap-delltech .text-gray-dark{color:#292b2c !important}
+.bootstrap-delltech a.text-gray-dark:focus,.bootstrap-delltech a.text-gray-dark:hover{color:#101112 !important}
+.bootstrap-delltech .text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}
+.bootstrap-delltech .invisible{visibility:hidden !important}
+.bootstrap-delltech .hidden-xs-up{display:none !important}
+@media(max-width:639px){.bootstrap-delltech .hidden-xs-down{display:none !important}
+}
+@media(min-width:640px){.bootstrap-delltech .hidden-sm-up{display:none !important}
+}
+@media(max-width:767px){.bootstrap-delltech .hidden-sm-down{display:none !important}
+}
+@media(min-width:768px){.bootstrap-delltech .hidden-md-up{display:none !important}
+}
+@media(max-width:979px){.bootstrap-delltech .hidden-md-down{display:none !important}
+}
+@media(min-width:980px){.bootstrap-delltech .hidden-lg-up{display:none !important}
+}
+@media(max-width:1279px){.bootstrap-delltech .hidden-lg-down{display:none !important}
+}
+@media(min-width:1280px){.bootstrap-delltech .hidden-xl-up{display:none !important}
+}
+@media(max-width:1599px){.bootstrap-delltech .hidden-xl-down{display:none !important}
+}
+@media(min-width:1600px){.bootstrap-delltech .hidden-xxl-up{display:none !important}
+}
+.bootstrap-delltech .hidden-xxl-down{display:none !important}
+.bootstrap-delltech .visible-print-block{display:none !important}
+@media print{.bootstrap-delltech .visible-print-block{display:block !important}
+}
+.bootstrap-delltech .visible-print-inline{display:none !important}
+@media print{.bootstrap-delltech .visible-print-inline{display:inline !important}
+}
+.bootstrap-delltech .visible-print-inline-block{display:none !important}
+@media print{.bootstrap-delltech .visible-print-inline-block{display:inline-block !important}
+}
+@media print{.bootstrap-delltech .hidden-print{display:none !important}
+}

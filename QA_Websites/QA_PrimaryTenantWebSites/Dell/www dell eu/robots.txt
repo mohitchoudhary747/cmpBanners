@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /csb/*/bundles
+Disallow: /
+
+# Last modified 5. September 2018

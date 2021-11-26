@@ -1,0 +1,79 @@
+@media screen and (min-width:0){
+.homepage-hero{overflow:hidden}
+.homepage-hero .tt-cols{background:linear-gradient(180deg,rgba(255,255,255,0) 5%,rgba(255,255,255,.6) 100%)}
+.powerscale-hero{position:relative}
+.powerscale-hero-bg{position:absolute;top:0;bottom:0;width:100%;height:100%;overflow:hidden;z-index:-1;background-image:url("https://www.delltechnologies.com/content/dam/DellEMC/UnifiedHomepage/images/powerscale-bg-hero-mobile.jpg");background-repeat:no-repeat;background-size:cover;background-position:center}
+.powerscale-hero-bg video{min-width:100%;min-height:100%;position:absolute;top:50%;left:50%;transform:translateX(-50%) translateY(-50%)}
+.powerscale-hero-main{position:relative;min-height:700px;margin:0 auto;max-width:1420px;text-align:center;padding-bottom:40px}
+.powerscale-hero-text{color:#fff;text-decoration:none;margin:0 auto;padding:0 18px;padding-top:65px;padding-bottom:20px;width:100%}
+#tt-content .powerscale-hero-text h3{font-size:16px!important;line-height:72px!important;font-weight:700!important}
+#tt-content .powerscale-hero-text h2{font-size:32px!important;line-height:36px!important;font-weight:700!important}
+.rtl .powerscale-hero .cta .cta-body{direction:rtl}
+.powerscale-hero .cta .cta-body{display:table-cell;padding:15px}
+.powerscale-hero .cta .cta-body .cta-text{color:#fff;text-decoration:none;display:block;padding:0}
+.powerscale-hero .cta .cta-icon{background-size:contain;background-repeat:no-repeat;background-position:center;height:50px;width:50px;display:inline-block}
+.homepage-hero-product{position:absolute;width:100%;bottom:21%;left:-10px;display:flex;justify-content:center}
+.homepage-hero-product .bg-block{display:none}
+.homepage-hero-product .product-img-wrap{z-index:100;max-width:1420px}
+.homepage-hero-product .cta.cta-v2:after{background-size:100%;display:inline-block;background-repeat:no-repeat;position:relative;left:5px;transform:scale(1.5)}
+.powerscale-hero-link-list{position:absolute;top:74%;display:flex;flex-direction:row;width:100%;flex-flow:row wrap;justify-content:center;z-index:1;padding:0 13px}
+.powerscale-hero-link-list ul{display:inline-flex}
+.powerscale-hero-link-list ul li{margin:0 5px}
+.powerscale-hero-link-list ul a{background:transparent linear-gradient(180deg,#002748 0,rgba(0,118,206,.611764705882353) 100%) 0 0 no-repeat padding-box;border-radius:7px}
+}
+@media screen and (min-width:414px){
+.powerscale-hero .cta .cta-body{padding:15px 26px}
+}
+@media screen and (min-width:640px){
+.powerscale-hero-text{width:500px}
+#tt-content .powerscale-hero-text h3{font-size:18px!important}
+#tt-content .powerscale-hero-text h2{font-size:36px!important;line-height:40px!important}
+.homepage-hero-product{left:-160px}
+}
+@media screen and (min-width:768px){
+.powerscale-hero-bg{background-image:url("https://www.delltechnologies.com/content/dam/DellEMC/UnifiedHomepage/images/powerscale-bg-hero.jpg")}
+#tt-content .powerscale-hero-text h2{font-size:40px!important;line-height:46px!important}
+.fade{opacity:0}
+.faded-in{opacity:1}
+.anim-zoom{-webkit-transition:transform 1.5s ease,opacity 1.5s ease;transition:transform 1.5s ease,opacity 1.5s ease}
+.anim-fade{-webkit-transition:opacity 2s ease;transition:opacity 2s ease}
+.fade-two{-webkit-transition:opacity 1s ease;transition:opacity 1s ease}
+.anim-zoom{transform:scale(2)}
+.anim-zoom.faded-in{transform:scale(1)}
+.powerscale-hero-text{width:550px}
+.powerscale-hero-link-list{position:relative}
+.powerscale-hero-link-list ul li a{background:0;width:initial;height:initial;padding:15px 30px}
+.powerscale-hero-link-list ul li a:before{content:" ";opacity:0;position:absolute;top:0;left:0;right:0;bottom:0;-webkit-transition:opacity .4s ease;transition:opacity .4s ease;border-radius:8px;background:transparent linear-gradient(180deg,rgba(0,21,38,.6901960784313725) 0,rgba(0,34,59,.3607843137254902) 100%) 0 0 no-repeat padding-box}
+.powerscale-hero-link-list ul li a:hover:before{opacity:1}
+.powerscale-hero-link-list ul li{position:relative;margin:0 5px}
+.powerscale-hero .cta .cta-body{padding:0}
+.powerscale-hero .cta .cta-body .cta-text{padding:10px 0;display:inline-block}
+.homepage-hero-product{position:relative;left:0}
+.powerscale-hero-main{max-height:580px;min-height:auto}
+.homepage-hero-product .bg-block{display:block;width:100%;position:fixed;top:40px;left:0;height:100%;background:transparent linear-gradient(180deg,rgba(255,255,255,.3411764705882353) 0,rgba(255,255,255,.6784313725490196) 100%) 0 0 no-repeat padding-box;z-index:99}
+.homepage-hero-product .bg-block,::-ms-backdrop{display:none}
+.homepage-hero-product .product-img{width:112%;height:auto}
+.powerscale-hero .cta .cta-icon{margin-right:10px}
+}
+@media screen and (min-width:980px){
+.powerscale-hero-bg{background-size:auto}
+#tt-content .powerscale-hero-text h2{font-size:42px!important;line-height:50px!important}
+.homepage-hero-product .product-img-wrap{padding:0 100px}
+.homepage-hero-product .product-img{width:100%}
+}
+@media screen and (min-width:1280px){
+#tt-content .powerscale-hero-text h3{font-size:24px!important}
+#tt-content .powerscale-hero-text h2{font-size:56px!important;line-height:60px!important}
+.powerscale-hero-text{width:775px}
+#tt-content .powerscale-hero .cta-text{font-size:24px}
+.powerscale-hero .cta .cta-icon{height:60px;width:60px}
+.homepage-hero-product .bg-block{top:60px}
+}
+@media screen and (min-width:1600px){
+#tt-content .powerscale-hero-text h3{font-size:32px!important}
+#tt-content .powerscale-hero-text h2{font-size:65px!important;line-height:70px!important}
+.powerscale-hero-text{width:940px}
+}
+@media screen and (min-width:1920px){
+.powerscale-hero-bg{background-size:100% auto}
+}

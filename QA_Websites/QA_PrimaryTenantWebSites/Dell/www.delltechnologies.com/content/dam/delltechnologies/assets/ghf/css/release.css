@@ -1,0 +1,62 @@
+/*Fix for Education, we still need it until they add the fix*/
+body.page.premium.use-compatibility-header-fill.uw.emc-v2 #ghm-search-slim,body.page.premium.use-compatibility-header-fill.uw.emc-v2 #ghm-contact,body.page.premium.use-compatibility-header-fill.uw.emc-v2 #ghm-account { display: none; }
+
+#ghf-header .js-ghf-open[hidden]{display: block !important;}
+@media (min-width: 768px){
+#ghf-header.ghf_active #gh-masthead>.ghf-wrapper>.ghf-icon_open[hidden] {
+    display: none !important;
+}
+#ghf-header .ghn-item.ghf_active .ghf-close-container .js-ghf-cta_close[hidden] {
+    display: inline-block !important;
+}
+
+#ghf-header #gh-masthead>.ghf-wrapper>.ghf-icon_close.ghf-show[hidden] {
+    display: block !important;
+}
+}
+
+#ghf-header button[hidden] {
+    display: inline-block !important;
+}
+
+#ghf-header #gh-masthead>.ghf-wrapper>.ghf-icon_close{
+display: none !important;
+}
+#ghf-header .ghm-title {
+    display: block !important;
+}
+@media (min-width: 768px){
+#ghf-header #gh-masthead>.ghf-wrapper>button, #ghf-header #ghm-navigator>button, #ghf-header #ghm-search>button, #ghf-header #ghm-util>button {
+    display: none !important;
+}
+#ghf-header #gh-masthead>.ghf-wrapper>.ghf-icon_open {
+    display: block !important;
+}
+#ghf-header .ghm-title {
+    display: none !important;
+}
+}
+#ghf-header #ghm-search .searchbox11-input:not(:valid)~.searchbox11-cta_cancel {
+    display: none !important;
+}
+/* Fix for RFQ overlay background */ 
+@media (min-width: 768px){
+.overlay-assets.has-rfq-popup.overlay-custom.modal {
+    background: none;
+}
+}
+/*Fix for author config page that is not able to scroll*/
+#ghf-header-author #ghf-header-container {position:static !important}
+@media (min-width: 768px){#ghf-header-author #gh-nav {overflow-y: visible !important;}}
+
+
+/*Fix for ratio image issues on profile component  https://www.delltechnologies.com/en-us/events/delltechnologiesworld/speakers.htm*/
+
+.profile-list01-view .wrapper>.wrapper-image .rendition{width:auto;}
+
+
+
+/* Fix for gss not loading - css specificity issue - fix is already available in main , but was not part of release tag. can be removed in next release */
+#ghf-header #ghm-gss-container .gss11-view{display:block}#ghf-header .gss11-view~.ghm-spinner{display:none}.gss11-view{background:#fff;display:block;text-align:left}.gss11-view .gss11-tabs-regions a,.gss11-view .gss11-region_title{color:#1a1a1a;font-weight:600;text-transform:uppercase}.gss11-view .gss11-tabs-regions a::after,.gss11-view .gss11-region_title::after{transition:transform 150ms linear;color:#006bbb;float:right}.gss11-view .gss11-tab_save label{color:#006bbb;cursor:pointer;font-size:16px;font-weight:600;line-height:20px}.gss11-view #gss11-save-selection{background-color:#c8c9c7;border-radius:4px;height:22px;margin-right:12px;padding:0;text-align:center;width:22px}.gss11-view #gss11-save-selection::after{color:#fff;content:"⠀";font-weight:800;line-height:22px}.gss11-view #gss11-save-selection.gss11-checked::after{content:"✓"}.gss11-view #gss11-save-selection.gss11-checked{background-color:#0076ce}.gss11-view .gss11-country{color:#006bbb;display:block;font-weight:400}.gss11-view .gss11-country.gss11-selected{cursor:default;font-weight:600}.gss11-view .gss11-country.gss11-selected::after{background-color:#0076ce;border-radius:50%;color:#fff;content:"✓";float:right;font-size:12px;font-weight:800;height:18px;line-height:18px;position:relative;text-align:center;width:18px}@media all and (min-width: 0)and (max-width: 767.9px){#ghf-header .gss11-view .gss11-countries{padding:0 17px}#ghf-header .gss11-view .gss11-countries li{border-top:solid 1px #d8d8d8}.gss11-view .gss11-heading,.gss11-view .gss11-tabs-regions{display:none}.gss11-view .gss11-tab_save{padding:20px 17px}.gss11-view .gss11-region{border-top:solid 1px #d8d8d8}.gss11-view .gss11-region:last-child{border-bottom:solid 1px #d8d8d8}.gss11-view .gss11-region.gss11-active .gss11-countries{display:block}.gss11-view .gss11-region.gss11-active .gss11-region_title::after{transform:rotateX(180deg)}.gss11-view .gss11-region_title{display:block;font-size:16px;line-height:20px;padding:20px 17px}.gss11-view .gss11-region_title::after{transition:transform 150ms linear;color:#006bbb;float:right}.gss11-view .gss11-countries{display:none}.gss11-view .gss11-country{display:block;font-size:14px;line-height:18px;padding:15px 0}}@media all and (min-width: 768px){#ghf-header .gss11-view .gss11-tabs-regions{line-height:14px}.gss11-view{padding:26px 30px 36px}.gss11-view .gss11-heading{font-size:20px;line-height:28px;padding-bottom:26px}.gss11-view .gss11-tabs{align-items:baseline;border-bottom:solid 1px #0076ce;display:flex;justify-content:space-between;margin-bottom:19px}.gss11-view .gss11-tabs-regions a{border-bottom:solid 4px transparent;display:inline-block;font-size:12px;line-height:14px;padding-bottom:11px}.gss11-view .gss11-tabs-regions a:not(:last-child){margin-right:30px}.gss11-view .gss11-tabs-regions a:hover,.gss11-view .gss11-tabs-regions a.gss11-active{border-bottom-color:#0076ce}.gss11-view .gss11-tab_save label{font-size:12px;line-height:14px}.gss11-view #gss11-save-selection{height:20px;position:relative;top:2px;width:20px}.gss11-view #gss11-save-selection::after{bottom:3px;font-size:12px;position:relative}.gss11-view .gss11-region{display:none}.gss11-view .gss11-region.gss11-active{display:block}.gss11-view .gss11-region_title{display:none}.gss11-view .gss11-countries{column-count:3;column-gap:18px}.gss11-view .gss11-countries li{border-bottom:solid 1px #d8d8d8;display:inline-block;width:100%}.gss11-view .gss11-country{font-size:12px;line-height:14px;padding:10px 0 10px 12px}.gss11-view .gss11-country:not(.gss11-selected):hover{background-color:#eee}.gss11-view .gss11-country.gss11-selected::after{font-size:10px;height:16px;line-height:16px;top:-1px;width:16px}}
+
+
