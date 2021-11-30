@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cookie Consent Revoke </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head><link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' />
+<body>
+
+<h1>Cookie Consent Revoke </h1>
+
+<script type="text/javascript" src="https://cdn-prod.securiti.ai/consent/sdk-stub.js" defer></script>
+<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+<script>
+(function () {
+	var s = document.createElement('script');
+	s.src = 'https://cdn-prod.securiti.ai/consent/cookie-consent-sdk.js';
+	s.setAttribute('data-tenant-uuid', '77e97bfe-3c5d-4a29-9146-df340514fb97');
+	s.setAttribute('data-domain-uuid', '2839fd17-37c1-4e00-aeae-c74e563c45bc');
+	s.setAttribute('data-backend-url', 'https://app.securiti.ai');
+	s.defer = true;
+	var parent_node = document.head || document.body;
+	parent_node.appendChild(s);
+	s.addEventListener('load', function() { window.initCmp(); });
+})()
+</script><!-- You may style the button by overriding class "cmp-revoke-consent" -->
+<button class="cmp-revoke-consent" onclick="showConsentPreferencesPopup()">Revoke Consent</button>
+</body>
+</html>

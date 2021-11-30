@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Testing CSP </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn-qa.securiti.xyz; style-src 'self' 'unsafe-inline' https://cdn-qa.securiti.xyz/consent/cookie-consent.css; connect-src 'self' https://cdn-qa.securiti.xyz https://qa.securiti.xyz/core/v1/utils/geo/location https://qa.securiti.xyz/privaci/v1/consent/cookie/singleupload">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<link rel='stylesheet' type='text/css' href='https://cdn-qa.securiti.xyz/consent/cookie-consent.css' />
+<link rel='stylesheet' type='text/css' href='https://cdn-qa.securiti.xyz/consent/styles/1e3d5b3a-4afd-48b1-8d65-95cac76e669c/c5ef7391-a5e8-4a47-9cce-72db50f9c78c.css' />
+<body>
+
+<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+<script
+	defer
+	data-strict-csp
+	src="https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk-strict-csp.js"
+	data-tenant-uuid="1e3d5b3a-4afd-48b1-8d65-95cac76e669c"
+	data-domain-uuid="c5ef7391-a5e8-4a47-9cce-72db50f9c78c"
+	data-backend-url="https://qa.securiti.xyz">
+</script>
+
+<!-- You may style the button by overriding class "cmp-revoke-consent" -->
+<button class="cmp-revoke-consent" onclick="showConsentPreferencesPopup()">Revoke Consent</button>
+
+
+</body>
+</html>
+
+
+
