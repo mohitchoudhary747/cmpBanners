@@ -88,3 +88,4 @@ https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_GeoLocation/autumn-daze
 ProdEU/EU_GeoLocation/autumn-daze/EUProd_GeoLocation_2.html
 
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsent OnePlus/ImplicitConsentOnePlus/ImpliOnePlus_1.html
+https://mohitchoudhary747.github.io/cmpBanners/Dev-Stage_Websites/Arsalan/RadioButton_TruthLogic/DevstageRadiobuttonFormbased.html
