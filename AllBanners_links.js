@@ -88,4 +88,13 @@ https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_GeoLocation/autumn-daze
 ProdEU/EU_GeoLocation/autumn-daze/EUProd_GeoLocation_2.html
 
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsent OnePlus/ImplicitConsentOnePlus/ImpliOnePlus_1.html
-https://mohitchoudhary747.github.io/cmpBanners/Dev-Stage_Websites/Arsalan/RadioButton_TruthLogic/DevstageRadiobuttonFormbased.html
+https://mohitchoudhary747.github.io/cmpBanners/Dev-Stage_Websites/Arsalan/ContactForm/DevstageRadiobuttonFormbased.html
+
+https://mohitchoudhary747.github.io/cmpBanners/Dev-Stage_Websites/Arsalan/ContactForm/dev-stage-categorize-cookie.html
+
+
+https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/DevStage_Others/CMP_CookieBanner_Revoke/blessed/CapttureConsent_Revoke_2.html
+https://mohitchoudhary747.github.io/cmpBanners/DevStage_Others/CMP_CookieBanner_Revoke/blessed/CapttureConsent_Revoke_2.html
+
+
+https://mohitchoudhary747.github.io/cmpBanners/ProdUs/MUUID_Prod/US_MUUIDRedeploycode_Prod_1.html.html
