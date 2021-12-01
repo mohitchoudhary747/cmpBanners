@@ -53,4 +53,21 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSi
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/RadiobuttonFormbased.html
 https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/                       ContactForm/RadiobuttonFormbased.html
 
+
+https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/Prod Us/US_GeoLocation/autumn-daze/UsProd_GeoLocation_1.html
 https://mohitchoudhary747.github.io/cmpBanners/ProdUs/US_GeoLocation/autumn-daze/UsProd_GeoLocation_1.html
+/Users/mohitchoudhary/Documents/MablIndex/CMP/cmpBanners/ProdUs/US_GeoLocation/autumn-daze/UsProd_GeoLocation_1.html
+
+https://mohitchoudhary747.github.io/cmpBanners/ProdUs/MUUID_Prod/US_MUUIDRedeploycode_Prod_1.html.html
+
+https://mohitchoudhary747.github.io/cmpBanners/ProdUs/USProd_CaptureConsent/UsProd_CaptureConsent_1.html
+
+https://mohitchoudhary747.github.io/cmpBanners/ProdUs/CSP/Prod_US_Mohit_csp_8.html
+
+https://mohitchoudhary747.github.io/cmpBanners/ProdUs/US_OnePlus_Implicit_Consent/ImplicitConsentOnePlus/US_ImpliOnePlus_1.html
+
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/MultipleUUIDcase3.html
+
+// EU Prod Links
+// https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_Prod_CaptureConsent/EUProd_CaptureConsent_1.html
+// https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/Prod EU/EU_Prod_CaptureConsent/EUProd_CaptureConsent_1.html
