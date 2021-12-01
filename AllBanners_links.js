@@ -71,3 +71,11 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/Conta
 // EU Prod Links
 // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_Prod_CaptureConsent/EUProd_CaptureConsent_1.html
 // https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/Prod EU/EU_Prod_CaptureConsent/EUProd_CaptureConsent_1.html
+
+https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_MUUID/MUUIDRedeploycode_EU_1.html
+https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/Prod%20EU/EU%20MUUID/MUUIDRedeploycode_EU_1.html
+
+
+https://mohitchoudhary747.github.io/cmpBanners/
+https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_Check_ImplcitConsent/EU_ImpliConsentOnePlus_7.html
+https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/Prod%20EU/EU_Check_ImplcitConsent/EU_ImpliConsentOnePlus_7.html
