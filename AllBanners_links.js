@@ -80,4 +80,11 @@ https://mohitchoudhary747.github.io/cmpBanners/
 https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_Check_ImplcitConsent/EU_ImpliConsentOnePlus_7.html
 https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/Prod%20EU/EU_Check_ImplcitConsent/EU_ImpliConsentOnePlus_7.html
 
-ProdEU/www.office.comCSP/EU_Mohit csp_5.html
+https://mohitchoudhary747.github.io/cmpBanners/ProdEU/www.office.comCSP/EU_Mohitcsp_5.html
+https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/Prod%20EU/https%3A%2F%2Fwww.office.com%20CSP/EU%20Mohit%20csp_5.html
+
+https://mohitchoudhary747.github.io/cmpBanners/ProdEU/EU_GeoLocation/autumn-daze/EUProd_GeoLocation_2.html
+
+ProdEU/EU_GeoLocation/autumn-daze/EUProd_GeoLocation_2.html
+
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsent OnePlus/ImplicitConsentOnePlus/ImpliOnePlus_1.html
