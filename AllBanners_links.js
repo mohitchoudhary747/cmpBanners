@@ -100,3 +100,12 @@ https://mohitchoudhary747.github.io/cmpBanners/DevStage_Others/CMP_CookieBanner_
 https://mohitchoudhary747.github.io/cmpBanners/ProdUs/MUUID_Prod/US_MUUIDRedeploycode_Prod_1.html
 
 https://mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/automationbanner3_classicForm.html
+
+formbasedcase2
+https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/MultipleUUID24.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/MultipleUUID24.html
+
+formbasedsingleuuid
+https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/MultipleUUID23.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/MultipleUUID23.html
