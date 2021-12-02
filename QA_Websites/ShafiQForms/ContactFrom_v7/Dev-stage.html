@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel='stylesheet' type='text/css' href='https://cdn-dev-stage.securiti.xyz/consent/cookie-consent.css' />
+</head>
+<body>
+    <h1>latest Snippet code for Scanner V2 </h1>
+
+
+<script type="text/javascript" src="https://cdn-dev-stage.securiti.xyz/consent/sdk-stub.js"></script>
+<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+<script>
+(function () {
+	var s = document.createElement('script');
+	s.src = 'https://cdn-dev-stage.securiti.xyz/consent/cookie-consent-sdk.js';
+	s.setAttribute('data-tenant-uuid', '0d4c64e3-fdfb-4bbb-b737-e97efd66a25c');
+	s.setAttribute('data-domain-uuid', '5734b93d-9b5d-4586-b588-3b9adf7c094e');
+	s.setAttribute('data-backend-url', 'https://dev-stage.securiti.xyz');
+	var parent_node = document.head || document.body;
+	parent_node.appendChild(s);
+	s.addEventListener('load', function() { window.initCmp(); });
+})()
+</script>
+
+</body>
+</html>
