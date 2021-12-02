@@ -97,4 +97,6 @@ https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/DevStage_Others/CMP
 https://mohitchoudhary747.github.io/cmpBanners/DevStage_Others/CMP_CookieBanner_Revoke/blessed/CapttureConsent_Revoke_2.html
 
 
-https://mohitchoudhary747.github.io/cmpBanners/ProdUs/MUUID_Prod/US_MUUIDRedeploycode_Prod_1.html.html
+https://mohitchoudhary747.github.io/cmpBanners/ProdUs/MUUID_Prod/US_MUUIDRedeploycode_Prod_1.html
+
+https://mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
