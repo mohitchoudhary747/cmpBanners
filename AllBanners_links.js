@@ -109,3 +109,15 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/Conta
 formbasedsingleuuid
 https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/MultipleUUID23.html
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/MultipleUUID23.html
+
+
+vurl
+https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/Cookie%20Consent%20Revoke.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/CookieConsentRevoke.html
+
+
+
+https://mohitchoudhary747.github.io/cmpBanners/
+
+https://mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/QA-multipleConsent9.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/QA-multipleConsent9.html
