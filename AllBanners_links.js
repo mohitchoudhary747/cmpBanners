@@ -138,3 +138,4 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/Conta
 {{@consent_specificCookies}}
 https://mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/automationbanner3_SpecificCookies.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/automationbanner3_SpecificCookies.html
