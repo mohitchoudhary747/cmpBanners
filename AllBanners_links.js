@@ -129,10 +129,12 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFr
 https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/MUUIDRedeploycode.html
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/MUUIDRedeploycode.html
 
+
+{{@tracker_banner}}
 https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/CMP%20Cookie%20Consent%20Tracker%20feature.html
-https://mohitchoudhary747.github.io/cmpBanners/
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/CMPCookieConsentTrackerfeature.html
 
 
-
-
-https://mohitchoudhary747.github.io/cmpBanners/
+{{@consent_specificCookies}}
+https://mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/automationbanner3_SpecificCookies.html
