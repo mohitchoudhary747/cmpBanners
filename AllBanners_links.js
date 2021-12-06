@@ -141,4 +141,6 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFr
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/automationbanner3_SpecificCookies.html
 
 
-QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsentOnePlus/ImplicitConsentOnePlus/ImpliOnePlus_1.html
+// QA
+https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsent OnePlus/ImplicitConsentOnePlus/ImpliOnePlus_1.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsentOnePlus/ImpliOnePlus_1.html
