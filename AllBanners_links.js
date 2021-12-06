@@ -139,3 +139,6 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/Conta
 https://mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/automationbanner3_SpecificCookies.html
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/automationbanner3_SpecificCookies.html
+
+
+QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsentOnePlus/ImplicitConsentOnePlus/ImpliOnePlus_1.html
