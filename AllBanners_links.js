@@ -149,3 +149,14 @@ https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/QA_Websites/QA_Prim
 https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSites/ImplicitConsentOnePlus/ImpliOnePlus_1.html
 
 https://mohitchoudhary747.github.io/cmpBanners/Selnium_SampleReports/AutoblockingSample-report.html
+
+
+
+// User Agent
+// https://mohitchoudhary747.github.io/cmpBanners/
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_UserAgent/userAgent.html
+
+
+
+//GCP Prod
+https://mohitchoudhary747.github.io/cmpBanners//Users/mohitchoudhary/Documents/MablIndex/CMP/cmpBanners/GcpProdUS/MUUID_GCP_Prod/GCP_US_MUUIDRedeploycode_Prod_1.html
