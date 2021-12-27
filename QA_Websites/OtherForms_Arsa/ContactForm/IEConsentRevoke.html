@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IE Consent Revoke</title>
+	<h1>IE Consent Revoke</h1>
+
+<link rel='stylesheet' type='text/css' href='https://cdn-qa.securiti.xyz/consent/cookie-consent.css' />
+</head>
+<body>
+<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+<script>
+(function () {
+	var s = document.createElement('script');
+	s.src = 'https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk.js';
+	s.setAttribute('data-tenant-uuid', '1def671b-8f89-4c49-9129-d37c60bd6f6a');
+	s.setAttribute('data-domain-uuid', 'f9bf9b78-0b72-4553-bd0b-17011ee51199');
+	s.setAttribute('data-backend-url', 'https://qa.securiti.xyz');
+	s.defer = true;
+	var parent_node = document.head || document.body;
+	parent_node.appendChild(s);
+	s.addEventListener('load', function() { window.initCmp(); });
+})()
+</script>
+<!-- You may style the button by overriding class "cmp-revoke-consent" -->
+<button class="cmp-revoke-consent" onclick="showConsentPreferencesPopup()">Revoke Consent</button>
+</body>
+</html>

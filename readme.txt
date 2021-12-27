@@ -1,0 +1,1 @@
+This project will have all the banners used in UI automation testing

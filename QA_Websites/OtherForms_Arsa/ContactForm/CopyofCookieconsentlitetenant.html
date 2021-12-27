@@ -1,0 +1,30 @@
+<!--
+
+                            Online HTML Compiler.
+                Code, Compile, Run and Debug HTML program online.
+Write your code in this editor and press "Run" button to execute it.
+
+-->
+
+<html>
+    <link rel='stylesheet' type='text/css' href='https://cdn-qa.securiti.xyz/consent/cookie-consent.css' />
+<body>
+<h1>Cookie Consent Revoke</h1>
+<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+<script>
+(function () {
+	var s = document.createElement('script');
+	s.src = 'https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk.js';
+	s.setAttribute('data-tenant-uuid', '0e02d0ce-caac-4786-a0b8-734ea88fff0a');
+	s.setAttribute('data-domain-uuid', 'a9ee2866-538a-4b72-89bf-966ccebc100d');
+	s.setAttribute('data-backend-url', 'https://qa.securiti.xyz');
+	s.defer = true;
+	var parent_node = document.head || document.body;
+	parent_node.appendChild(s);
+	s.addEventListener('load', function() { window.initCmp(); });
+})()
+</script>
+<!-- You may style the button by overriding class "cmp-revoke-consent" -->
+<button class="cmp-revoke-consent" onclick="showConsentPreferencesPopup()">Revoke Consent</button>
+</body>
+</html>

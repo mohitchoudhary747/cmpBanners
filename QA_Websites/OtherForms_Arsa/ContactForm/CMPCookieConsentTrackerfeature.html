@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CMP Cookie Consent Tracker Feature</title>
+</head>
+<link rel='stylesheet' type='text/css' href='https://cdn-qa.securiti.xyz/consent/cookie-consent.css' />
+<body>
+<!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+<script>
+(function () {
+	var s = document.createElement('script');
+	s.src = 'https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk.js';
+	s.setAttribute('data-tenant-uuid', 'fed2ba6f-af7e-477b-a90c-f13ce3eddd23');
+	s.setAttribute('data-domain-uuid', '48cb1705-8a51-4405-a03d-03e359e803d4');
+	s.setAttribute('data-backend-url', 'https://qa.securiti.xyz');
+	s.defer = true;
+	var parent_node = document.head || document.body;
+	parent_node.appendChild(s);
+	s.addEventListener('load', function() { window.initCmp(); });
+})()
+</script>
+<!-- You may style the button by overriding class "cmp-revoke-consent" -->
+<button class="cmp-revoke-consent" onclick="showConsentPreferencesPopup()">Revoke Consent</button>
+</body>
+</html>
