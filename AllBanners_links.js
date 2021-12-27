@@ -160,3 +160,9 @@ https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_UserAgent/userAgen
 
 //GCP Prod
 https://mohitchoudhary747.github.io/cmpBanners//Users/mohitchoudhary/Documents/MablIndex/CMP/cmpBanners/GcpProdUS/MUUID_GCP_Prod/GCP_US_MUUIDRedeploycode_Prod_1.html
+
+
+
+// Arsalan Banner
+
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/arsalanTicketVerifyGoogle/admin@connectorpiautomation.com/moon/contactGoogle.html
