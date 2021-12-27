@@ -165,4 +165,4 @@ https://mohitchoudhary747.github.io/cmpBanners//Users/mohitchoudhary/Documents/M
 
 // Arsalan Banner
 
-https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/arsalanTicketVerifyGoogle/admin@connectorpiautomation.com/moon/contactGoogle.html
+https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/arsalanTicketVerifyGoogle/admin@connectorpiautomation/moon/contactGoogle.html
