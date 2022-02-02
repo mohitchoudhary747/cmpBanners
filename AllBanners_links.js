@@ -193,8 +193,7 @@ https: //mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
 
 
 
-    // Autoblocking Deploy on the EU Site   ********************
-
+    // ********************     Autoblocking Deploy on the EU Site   ********************
 
     // Script Source
     // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieOneJs/Cookie1.js
