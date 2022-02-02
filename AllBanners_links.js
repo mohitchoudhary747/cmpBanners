@@ -179,4 +179,29 @@ https: //mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
     // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/ShafiQForms/ContactFrom_v7/QA-multipleConsent9.html
 
 
+
+    // https://akk4grcycagblrx6brj6qw-on.drv.tw/cmp_testing_Website/refimais.omni.com.br/
     // https://mohitchoudhary747.github.io/cmpBanners/refimais.omni.com.br/index.html
+
+    // {{@customizeBannerUrl}}
+    // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_CustomizeBanner/customizeBanner.html
+
+    
+    // {{@iEConsentRevoke}}
+
+    // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/IEConsentRevoke.html
+
+
+
+    // Autoblocking Deploy on the EU Site   ********************
+
+
+    // Script Source
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieOneJs/Cookie1.js
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieTwoJs/Cookie2.js
+
+    // Intitiator Path 
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieOneJs/
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieTwoJs/
+
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/MainSite/index.html
