@@ -198,9 +198,35 @@ https: //mbiy6zrch9cpykbw2dvbpq-on.drv.tw/ContactFrom_v7/automation banner3.html
     // Script Source
     // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieOneJs/Cookie1.js
     // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieTwoJs/Cookie2.js
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/MainSite/adnantesting.js
 
     // Intitiator Path 
     // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieOneJs/
     // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/CookieTwoJs/
 
     // https://mohitchoudhary747.github.io/cmpBanners/ProdEU/AutoBlocking/MainSite/index.html
+
+
+    allBannerInfo.getProperty("firstCategoryId")
+    allBannerInfo.getProperty("secondCategoryId")
+    allBannerInfo.getProperty("essentialCategoryId")
+
+
+    // ********************     Autoblocking Deploy on the US Site   ********************
+    // Prod Us/AutoBlocking
+    // Script Source
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdUs/AutoBlocking/CookieOneJs/Cookie1.js
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdUs/AutoBlocking/CookieOneJs/Cookie1.js
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdUs/AutoBlocking/CookieTwoJs/Cookie2.js
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdUs/AutoBlocking/MainSite/adnantesting.js
+
+    // Intitiator Path 
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdUs/AutoBlocking/CookieOneJs/
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdUs/AutoBlocking/CookieTwoJs/
+
+    // https://mohitchoudhary747.github.io/cmpBanners/ProdUs/AutoBlocking/MainSite/index.html
+
+
+    allBannerInfo.getProperty("firstCategoryId")
+    allBannerInfo.getProperty("secondCategoryId")
+    allBannerInfo.getProperty("essentialCategoryId")
