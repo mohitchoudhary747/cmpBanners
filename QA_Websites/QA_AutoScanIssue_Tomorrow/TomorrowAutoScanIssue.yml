@@ -1,0 +1,56 @@
+# WebSite1
+WebSite: https://www.pucminas.br/main/Paginas/default.aspx
+BannerLink: https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_AutoScanIssue_Tomorrow/pucminas/voip-company/pucminas.html
+domainId: 432
+Location: on
+Language: on
+Tracker: on
+# Banner 1
+Banner Name: default Banner
+Location: Everywhere
+Compliance Type: Let users opt out of cookies (Advanced)
+Message: website 1 Banner
+Title: My Custom Banner1
+Position: Banner Bottom 
+color: blue
+# Banner 2
+Banner Name: IndiaBanner
+BannerLink: 
+domainId: 431
+Location: India
+Compliance Type: Ask users to opt into cookies (Advanced)
+Message: website 2 Banner
+Title: My Custom2  Banner
+Position: Bottom Left
+color: red
+
+# WebSite 2
+WebSite: https://cyberforza.com/
+BannerLink: https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_AutoScanIssue_Tomorrow/cyberforza/book-store/cyberforza.html
+Location: on
+Language: off
+Tracker: on
+# Banner 1
+Banner Name: US
+Location: United States Of America
+Compliance Type: Basic
+Message: United States Banner Designed
+Title: Banner For US
+Position: Banner Top
+color: Green
+
+# WebSite 3
+WebSite: https://www.brinqa.com/
+BannerLink: https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_AutoScanIssue_Tomorrow/brinqa/2-breed/brinqa.html
+domainId: 430
+Location: off
+Language: on
+Tracker: on
+# Banner 1
+Banner Name: Default
+Location: Default
+Compliance Type: OptIn
+Message: This banner helps us to get the info for the cookies used to help the user for customizing the experience.
+Title: Browzila Website
+Position: Banner top (pushdown)
+color: orange
