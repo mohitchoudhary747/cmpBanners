@@ -229,3 +229,7 @@ allBannerInfo.getProperty("essentialCategoryId")
 allBannerInfo.getProperty("firstCategoryId")
 allBannerInfo.getProperty("secondCategoryId")
 allBannerInfo.getProperty("essentialCategoryId")
+
+
+// Language Intelligence Banner
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/LanguageIntelligence/colour-world/LanguageIntelligence.html
