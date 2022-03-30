@@ -49,7 +49,7 @@ https: //mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebS
 
 
 
-https: //mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/RadiobuttonFormbased.html
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/RadiobuttonFormbased.html
 https: //dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/                       ContactForm/RadiobuttonFormbased.html
 
 
@@ -231,5 +231,15 @@ allBannerInfo.getProperty("secondCategoryId")
 allBannerInfo.getProperty("essentialCategoryId")
 
 
-// Language Intelligence Banner
+// Language Intelligence Banner QA
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/LanguageIntelligence/colour-world/LanguageIntelligence.html
+
+
+// Language Intelligence Banner EU
+// https://mohitchoudhary747.github.io/cmpBanners/ProdEU/LanguageIntelligence/colour-world/LanguageIntelligence.html
+
+// Language Intelligence Banner PROD US
+// https://mohitchoudhary747.github.io/cmpBanners/ProdUs/LanguageIntelligence/colour-world/LanguageIntelligence.html
+
+// IAB Banner QA
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/IabGDPR_Banner/IAB_Site/iab_banner.html
