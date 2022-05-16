@@ -61,20 +61,19 @@
 
     
 <!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
-<script>
-(function () {
-	var s = document.createElement('script');
-	s.src = 'https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk.js';
-	s.setAttribute('data-tenant-uuid', 'bed3d78f-f59f-416f-8fd8-3730a596acb1');
-	s.setAttribute('data-domain-uuid', 'c77cca30-d4d6-4b4b-9dcf-3790b0d5411b');
-	s.setAttribute('data-backend-url', 'https://qa.securiti.xyz');
-	s.defer = true;
-	var parent_node = document.head || document.body;
-	parent_node.appendChild(s);
-	s.addEventListener('load', function() { window.initCmp(); });
-})()
-</script>
-    
+  <script>
+    (function () {
+      var s = document.createElement('script');
+      s.src = 'https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk.js';
+      s.setAttribute('data-tenant-uuid', 'bed3d78f-f59f-416f-8fd8-3730a596acb1');
+      s.setAttribute('data-domain-uuid', '71c1e9ce-2fbf-4602-a6f9-6adae8747ee9');
+      s.setAttribute('data-backend-url', 'https://qa.securiti.xyz');
+      s.defer = true;
+      var parent_node = document.head || document.body;
+      parent_node.appendChild(s);
+      s.addEventListener('load', function() { window.initCmp(); });
+    })()
+    </script>
     
   <body data-timestamp="1476060772" class="">
     <a href="https://www.blogger.com/about/?bpli=1#maincontent" class="accessibility-skip" tabindex="1">Skip to content</a>

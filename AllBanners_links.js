@@ -243,3 +243,7 @@ allBannerInfo.getProperty("essentialCategoryId")
 
 // IAB Banner QA
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/IabGDPR_Banner/IAB_Site/iab_banner.html
+
+
+// Translation Mapping
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/LanguageTranslationMapping/index.html
