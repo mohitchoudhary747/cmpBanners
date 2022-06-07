@@ -115,7 +115,7 @@ https: //mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/Cont
 
 vurl
 https: //dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/Cookie%20Consent%20Revoke.html
-https: //mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/CookieConsentRevoke.html
+// https: //mohitchoudhary747.github.io/cmpBanners/QA_Websites/OtherForms_Arsa/ContactForm/CookieConsentRevoke.html
 
 
 
@@ -247,3 +247,8 @@ allBannerInfo.getProperty("essentialCategoryId")
 
 // Translation Mapping
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/LanguageTranslationMapping/index.html
+
+
+// WorkDay AUtomation Preference Centre Banner
+//  Scenario One To Check the default behaviour
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1/index.html
