@@ -2,11 +2,9 @@ const PUB = window.postMessage;
 const SUB = window.addEventListener;
 
 const LOCATIONS = {
-  'IN': 'India',
   'default': 'Default',
   "ES": 'Spain',
-  'AU': 'Australia',
-  "FR": 'France'
+  'No': 'Norway'
 
 }
 
