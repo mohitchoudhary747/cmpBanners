@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Notification Form</title>
+    <link rel="stylesheet" href="workday.css">
+</head>
+<body>
+    
+    <section>
+        <form id="filter">
+            <select id="currentLocation">
+                <option value="IN">IN</option>
+                <option value="default">Default</option>
+            </select>
+            <!-- <select id="currentLanguage">
+                <option value="en">EN</option>
+                <option value="fr">French</option>
+            </select> -->
+            <button id="renderForm" type="button" class="btn">Render Form</button>
+        </form>
+        <form id="jobNotificationForm">
+            <p id="toast"></p>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input name="firstName" id="firstName" placeholder="Enter FirstName" />
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input name="lastName" id="lastName" placeholder="Enter LastName" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Enter email" />
+            </div>
+            <!-- Load iframe -->
+            <iframe id="preferenceIframe" height="200" src="./iframe/preference-center.html" ></iframe>
+        </form>
+    </section>
+
+    <script src="./workday.js"></script>
+</body>
+</html>
