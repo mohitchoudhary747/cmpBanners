@@ -3,8 +3,8 @@ const SUB = window.addEventListener;
 
 const LOCATIONS = {
   'default': 'Default',
-  "ES": 'Spain',
-  'No': 'Norway'
+  "IN": 'India',
+  'NO': 'Norway'
 
 }
 
