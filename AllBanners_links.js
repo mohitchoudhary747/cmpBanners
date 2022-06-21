@@ -251,5 +251,5 @@ allBannerInfo.getProperty("essentialCategoryId")
 
 // WorkDay AUtomation Preference Centre Banner
 //  Scenario One To Check the default behaviour
-// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1/index.html
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1_English/index.html
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario2_SpanishMapping/index.html
