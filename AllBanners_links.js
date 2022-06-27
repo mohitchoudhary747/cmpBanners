@@ -249,7 +249,7 @@ allBannerInfo.getProperty("essentialCategoryId")
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/LanguageTranslationMapping/index.html
 
 
-// WorkDay AUtomation Preference Centre Banner
+// WorkDay Automation Preference Centre Banner
 //  Scenario One To Check the default behaviour
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1_English/index.html
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario2_SpanishMapping/index.html

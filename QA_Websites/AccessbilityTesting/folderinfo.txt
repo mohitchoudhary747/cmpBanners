@@ -1,0 +1,5 @@
+This folder will have the banner only for the accessibilty purpose there will just plain html empty page to deploy the code, 
+so accessibiltiy testing will only check banner not page
+QAc:  mohit_cmp@uiautomationtest.com
+DomainGroup: AccessibilityChecks
+Domain: https://enigmabridge.com/

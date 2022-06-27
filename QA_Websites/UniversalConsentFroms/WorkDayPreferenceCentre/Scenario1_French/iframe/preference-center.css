@@ -1,0 +1,46 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cmp-form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.cmp-form-group.indent {
+    padding-left: .25rem;
+}
+.cmp-form-group input[type="checkbox"] {
+    width: fit-content;
+    margin-right: .5rem;
+}
+.cmp-processing-purpose-text {
+    letter-spacing: 1px;
+    margin: 0.75rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555
+}
+button {
+    user-select: none;
+    margin: .25rem 0;
+    display: inline-block;
+    padding: .5rem .75rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    border: 1px solid inherit;
+    background: inherit;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    box-shadow: 1px 4px 6px rgb(0 0 0 / 30%);
+}
+button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
