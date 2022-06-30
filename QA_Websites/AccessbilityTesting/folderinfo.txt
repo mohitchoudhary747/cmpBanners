@@ -3,3 +3,7 @@ so accessibiltiy testing will only check banner not page
 QAc:  mohit_cmp@uiautomationtest.com
 DomainGroup: AccessibilityChecks
 Domain: https://enigmabridge.com/
+QA_CMP
+dt_import_userName
+dt_import__password : 
+dt_accessi_cookiebanner_link: https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/AccessbilityTesting/enigmabridge.html

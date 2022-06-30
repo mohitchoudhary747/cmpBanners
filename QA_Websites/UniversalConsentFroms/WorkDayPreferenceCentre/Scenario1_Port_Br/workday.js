@@ -42,7 +42,7 @@ const CREDENTIALS = {
   preferenceCenterId: "c0c094d2-9b31-49af-909f-4fedfd20b720",
   primaryIdentifier: '',
   locationCode: 'IN',
-  languageCode: 'fr',
+  languageCode: 'pt-br',
   logLevel: 'error',
   implicitFlow: true,
   implicitRecordConsents: false

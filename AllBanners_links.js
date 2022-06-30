@@ -252,4 +252,10 @@ allBannerInfo.getProperty("essentialCategoryId")
 // WorkDay Automation Preference Centre Banner
 //  Scenario One To Check the default behaviour
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1_English/index.html
+// Check the same English non mapping pref with pt-br configured on the file
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1_Port_Br/index.html
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario2_SpanishMapping/index.html
+
+
+// Accessibilty Testing
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/AccessbilityTesting/enigmabridge.html
