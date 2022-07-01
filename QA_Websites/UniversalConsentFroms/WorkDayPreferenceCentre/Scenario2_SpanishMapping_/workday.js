@@ -2,12 +2,10 @@ const PUB = window.postMessage;
 const SUB = window.addEventListener;
 
 const LOCATIONS = {
-  'IN': 'India',
   'default': 'Default',
-  'AU': 'Australia',
-  "FR": 'France',
-  "SG": 'Singapore',
-  "BR": 'Brazil'
+  "ES": 'Spain',
+  'NO': 'Norway'
+
 }
 
 const TOAST_MESSAGES = {
@@ -39,10 +37,10 @@ const TOAST_MESSAGES = {
 
 const CREDENTIALS = {
   tenantId: "ba6693e4-a295-4a84-8e07-22718cafe743",
-  preferenceCenterId: "c0c094d2-9b31-49af-909f-4fedfd20b720",
+  preferenceCenterId: "2adc5494-35ae-4754-b08c-c7070d109d27",
   primaryIdentifier: '',
   locationCode: 'IN',
-  languageCode: 'pt',
+  languageCode: 'es',
   logLevel: 'error',
   implicitFlow: true,
   implicitRecordConsents: false
