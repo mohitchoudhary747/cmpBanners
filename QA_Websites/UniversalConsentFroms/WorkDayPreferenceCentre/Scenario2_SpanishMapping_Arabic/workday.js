@@ -4,7 +4,7 @@ const SUB = window.addEventListener;
 const LOCATIONS = {
   'default': 'Default',
   "ES": 'Spain',
-  'NO': 'Norway'
+
 
 }
 
@@ -40,7 +40,7 @@ const CREDENTIALS = {
   preferenceCenterId: "2adc5494-35ae-4754-b08c-c7070d109d27",
   primaryIdentifier: '',
   locationCode: 'IN',
-  languageCode: 'es',
+  languageCode: 'ar',
   logLevel: 'error',
   implicitFlow: true,
   implicitRecordConsents: false
