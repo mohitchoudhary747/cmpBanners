@@ -254,8 +254,13 @@ allBannerInfo.getProperty("essentialCategoryId")
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1_English/index.html
 // Check the same English non mapping pref with pt-br configured on the file
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1_Port_Br/index.html
+// This deployed pre centre to check the translation mapping for spanish
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario2_SpanishMapping/index.html
 
 
 // Accessibilty Testing
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/AccessbilityTesting/enigmabridge.html
+
+
+//*[descendant::*[text()='Consent Selection Identifier'] and contains(@class,'card')]/following-sibling::*[1]//input[@placeholder="Enter Value"]
+//input[@placeholder='Consent Purpose']
