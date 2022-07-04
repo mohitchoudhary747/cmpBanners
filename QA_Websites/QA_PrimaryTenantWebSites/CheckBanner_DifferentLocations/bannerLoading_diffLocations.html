@@ -1,0 +1,33 @@
+<html lang="en">
+<title>https://cyberforza.com/</title>
+
+<head>
+    <div>env: QA > Test Demo</div>
+    <div>check locations : End Test diffrent location check</div>
+    <div>domain: https://cyberforza.com/</div>
+    <link rel='stylesheet' type='text/css' href='https://cdn-qa.securiti.xyz/consent/cookie-consent.css' />
+</head>
+
+<body>
+
+    <!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+<script>
+    (function () {
+        var s = document.createElement('script');
+        s.src = 'https://cdn-qa.securiti.xyz/consent/cookie-consent-sdk.js';
+        s.setAttribute('data-tenant-uuid', '51a3e686-fb5a-4c78-bd45-1a87627c4ce2');
+        s.setAttribute('data-domain-uuid', 'd4873109-c265-4459-adba-1d47134a3401');
+        s.setAttribute('data-backend-url', 'https://qa.securiti.xyz');
+        s.defer = true;
+        var parent_node = document.head || document.body;
+        parent_node.appendChild(s);
+        s.addEventListener('load', function() { window.initCmp(); });
+    })()
+    </script>
+
+    <!-- You may style the button by overriding class "cmp-revoke-consent" -->
+<button class="cmp-revoke-consent">Revoke Consent</button>
+
+</body>
+
+</html>

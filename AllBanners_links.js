@@ -256,6 +256,8 @@ allBannerInfo.getProperty("essentialCategoryId")
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario1_Port_Br/index.html
 // This deployed pre centre to check the translation mapping for spanish
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario2_SpanishMapping/index.html
+// Mapping is in spanish and file has arabic code and on link it should be arabic ingnoring the mappings
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/UniversalConsentFroms/WorkDayPreferenceCentre/Scenario2_SpanishMapping_Arabic/index.html
 
 
 // Accessibilty Testing
