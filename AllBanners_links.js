@@ -266,3 +266,6 @@ allBannerInfo.getProperty("essentialCategoryId")
 
 //*[descendant::*[text()='Consent Selection Identifier'] and contains(@class,'card')]/following-sibling::*[1]//input[@placeholder="Enter Value"]
 //input[@placeholder='Consent Purpose']
+
+// This will be used in end test for diff locations banner load test tenant is Test demo
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSites/CheckBanner_DifferentLocations/bannerLoading_diffLocations.html
