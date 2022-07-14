@@ -42,7 +42,7 @@ const CREDENTIALS = {
   tenantId: "ba6693e4-a295-4a84-8e07-22718cafe743",
   preferenceCenterId: "c0c094d2-9b31-49af-909f-4fedfd20b720",
   primaryIdentifier: '',
-  locationCode: 'FR',
+  locationCode: 'PK',
   languageCode: 'ar',
   logLevel: 'error',
   implicitFlow: true,
