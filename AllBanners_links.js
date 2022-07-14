@@ -269,3 +269,9 @@ allBannerInfo.getProperty("essentialCategoryId")
 
 // This will be used in end test for diff locations banner load test tenant is Test demo
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/QA_PrimaryTenantWebSites/CheckBanner_DifferentLocations/bannerLoading_diffLocations.html
+
+
+
+// GDPR QA Banner
+// old: https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/banner/Banner.html
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/arsalanPolicy_Tenant/GDPR/Gdpr_Banner.html

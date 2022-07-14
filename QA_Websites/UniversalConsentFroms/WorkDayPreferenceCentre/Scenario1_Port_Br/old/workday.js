@@ -7,8 +7,7 @@ const LOCATIONS = {
   'AU': 'Australia',
   "FR": 'France',
   "SG": 'Singapore',
-  "BR": 'Brazil',
-  "CH": 'China'
+  "BR": 'Brazil'
 }
 
 const TOAST_MESSAGES = {
@@ -42,8 +41,8 @@ const CREDENTIALS = {
   tenantId: "ba6693e4-a295-4a84-8e07-22718cafe743",
   preferenceCenterId: "c0c094d2-9b31-49af-909f-4fedfd20b720",
   primaryIdentifier: '',
-  locationCode: 'FR',
-  languageCode: 'fr',
+  locationCode: 'IN',
+  languageCode: 'pt',
   logLevel: 'error',
   implicitFlow: true,
   implicitRecordConsents: false
@@ -57,7 +56,7 @@ const CREDENTIALS = {
 
   // Extract the location from url.
   const url = new URL(window.location.href);
-  let selectedLocation = CREDENTIALS.locationCode;
+  let selectedLocation = url.searchParams.get("loc") || 'default';
 
   //? STEP 1: subscribe to window events
   SUB("message", handleWindowEvents);
