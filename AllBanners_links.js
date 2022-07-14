@@ -275,3 +275,7 @@ allBannerInfo.getProperty("essentialCategoryId")
 // GDPR QA Banner
 // old: https://dfaiaf7y1njownnmi5cz9w-on.drv.tw/mywebforms/ContactForm/banner/Banner.html
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/arsalanPolicy_Tenant/GDPR/Gdpr_Banner.html
+
+
+// ******** Jakarta Form *******
+// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/JakartaProd/index.html
