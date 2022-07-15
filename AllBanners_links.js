@@ -279,3 +279,4 @@ allBannerInfo.getProperty("essentialCategoryId")
 
 // ******** Jakarta Form *******
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/JakartaProd/index.html
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/index.html
