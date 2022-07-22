@@ -277,6 +277,26 @@ allBannerInfo.getProperty("essentialCategoryId")
 // https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/arsalanPolicy_Tenant/GDPR/Gdpr_Banner.html
 
 
-// ******** Jakarta Form *******
-// https://mohitchoudhary747.github.io/cmpBanners/QA_Websites/JakartaProd/index.html
-// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/index.html
+// ******** Jakarta CMP Links *******
+
+// Base links: https://mohitchoudhary747.github.io/cmpBanners
+// Autoblocking
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/AutoBlocking/MainSite/index.html
+
+// Implicit Consent Check
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/Check_ImplcitConsent/ImpliConsentOnePlus_7.html
+
+// Geolocation Check
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/GeoLocation/autumn-daze/GeoLocation_2.html
+
+// Language Intelligence
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/LanguageIntelligence/colour-world/LanguageIntelligence.html
+
+// Workflow classic forms
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/WorkFlow/Saad_WF/Mohitworkflowclassicform1.html
+
+// Csp Banners
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/www.office.comCSP/Mohitcsp_5.html
+
+// MUUID Form
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/MUUID/MUUIDRedeploycode_1.html
