@@ -31,25 +31,25 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <link rel='stylesheet' type='text/css' href='https://cdn-app2.securiti.ai/consent/cookie-consent.css' />
    </head>
    <!-- body -->
    <body class="main-layout">
-      <!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
+    <!-- After adding this script, call setConsentBannerParams({uuid: <unique id> }) to set unique ID for a customer. -->
 <script>
    (function () {
       var s = document.createElement('script');
-      s.src = 'https://cdn-prod.eu.securiti.ai/consent/cookie-consent-sdk.js';
-      s.setAttribute('data-tenant-uuid', '35b6a775-192e-4b7d-95c9-aea5b30d9f58');
-      s.setAttribute('data-domain-uuid', 'cd7ee2ca-a0a7-483f-8440-53d2d1483f4a');
-      s.setAttribute('data-backend-url', 'https://app.eu.securiti.ai');
+      s.src = 'https://cdn-app2.securiti.ai/consent/cookie-consent-sdk.js';
+      s.setAttribute('data-tenant-uuid', '559418d5-6202-4f42-afd5-8e2b7365039c');
+      s.setAttribute('data-domain-uuid', 'a27a9818-fdb3-454b-89c8-e213af3dc610');
+      s.setAttribute('data-backend-url', 'https://app2.securiti.ai');
       s.defer = true;
       var parent_node = document.head || document.body;
       parent_node.appendChild(s);
       s.addEventListener('load', function() { window.initCmp(); });
    })()
    </script>
-
-   <!-- You may style the button by overriding class "cmp-revoke-consent" -->
+ <!-- You may style the button by overriding class "cmp-revoke-consent" -->
 <button class="cmp-revoke-consent">Revoke Consent</button>
       <!-- loader  -->
       <div class="loader_bg">

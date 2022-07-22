@@ -280,6 +280,10 @@ allBannerInfo.getProperty("essentialCategoryId")
 // ******** Jakarta CMP Links *******
 
 // Base links: https://mohitchoudhary747.github.io/cmpBanners
+
+// Capture Consent
+// https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/CaptureConsent/CaptureConsent_1.html
+
 // Autoblocking
 // https://mohitchoudhary747.github.io/cmpBanners/JakartaProd/AutoBlocking/MainSite/index.html
 
